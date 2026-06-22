@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="beige">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NCR Availability Info</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.7.0/dist/tabler-icons.min.css" />
+<style>
+:root{
+  --accent:#0f766e; --accent-soft:#14b8a6; --accent2:#c2841d; --accent2-soft:#e0a73a;
+  --good:#15803d; --bad:#b91c1c;
+  --r-sm:12px; --r-md:18px; --r-lg:26px;
+  --ease:cubic-bezier(.22,.61,.36,1);
+}
+html[data-theme="beige"]{
+  --page1:#faf3e7; --page2:#f1e4cd; --page3:#f6ecda;
+  --orb1:rgba(20,184,166,.22); --orb2:rgba(224,167,58,.28); --orb3:rgba(255,255,255,.55);
+  --glass:rgba(255,255,255,.62); --glass-strong:rgba(255,255,255,.82); --card:#fffdf8;
+  --border:rgba(166,138,92,.30); --border-soft:rgba(166,138,92,.18);
+  --text:#43392a; --text-strong:#2c2419; --muted:#9c8a6d;
+  --shadow:0 18px 40px -18px rgba(120,90,40,.45); --shadow-sm:0 8px 20px -12px rgba(120,90,40,.4);
+  --ring:rgba(15,118,110,.28);
+}
+html[data-theme="white"]{
+  --page1:#ffffff; --page2:#e9eef5; --page3:#f5f8fc;
+  --orb1:rgba(20,184,166,.18); --orb2:rgba(59,130,246,.16); --orb3:rgba(255,255,255,.6);
+  --glass:rgba(255,255,255,.70); --glass-strong:rgba(255,255,255,.88); --card:#ffffff;
+  --border:rgba(30,41,59,.12); --border-soft:rgba(30,41,59,.07);
+  --text:#334155; --text-strong:#0f172a; --muted:#7689a1;
+  --shadow:0 18px 40px -18px rgba(30,41,59,.35); --shadow-sm:0 8px 20px -12px rgba(30,41,59,.3);
+  --ring:rgba(15,118,110,.25);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:'Inter',system-ui,sans-serif; color:var(--text);
+  background:linear-gradient(135deg,var(--page1),var(--page2) 55%,var(--page3));
+  background-attachment:fixed; min-height:100vh; overflow-x:hidden;
+  transition:background .6s var(--ease),color .4s var(--ease);
+}
+.orbs{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+.orb{position:absolute;border-radius:50%;filter:blur(70px);opacity:.9}
+.orb.a{width:46vw;height:46vw;background:var(--orb1);top:-12vw;left:-8vw}
+.orb.b{width:40vw;height:40vw;background:var(--orb2);bottom:-14vw;right:-6vw}
+.orb.c{width:34vw;height:34vw;background:var(--orb3);top:30vh;left:46vw}
+@media(prefers-reduced-motion:no-preference){
+  .orb.a{animation:float1 22s var(--ease) infinite alternate}
+  .orb.b{animation:float2 26s var(--ease) infinite alternate}
+  .orb.c{animation:float3 30s var(--ease) infinite alternate}
+}
+@keyframes float1{to{transform:translate(8vw,6vh) scale(1.12)}}
+@keyframes float2{to{transform:translate(-7vw,-5vh) scale(1.15)}}
+@keyframes float3{to{transform:translate(-6vw,8vh) scale(.9)}}
+.wrap{max-width:1180px;margin:0 auto;padding:26px 22px 60px}
+
+/* glass primitive */
+.glass{
+  background:var(--glass); backdrop-filter:blur(16px) saturate(140%);
+  -webkit-backdrop-filter:blur(16px) saturate(140%);
+  border:1px solid var(--border); border-radius:var(--r-lg); box-shadow:var(--shadow);
+}
+
+/* banner */
+.banner{display:flex;align-items:center;gap:20px;padding:22px 26px;margin-bottom:22px;position:relative;overflow:hidden}
+.banner .sigil{
+  flex:none;width:60px;height:60px;border-radius:18px;display:grid;place-items:center;color:#fff;font-size:30px;
+  background:linear-gradient(140deg,var(--accent),var(--accent-soft));
+  box-shadow:0 10px 26px -8px var(--accent);
+}
+.banner h1{
+  font-family:'Sora',sans-serif;font-weight:800;font-size:clamp(24px,3.4vw,38px);line-height:1.05;letter-spacing:-.5px;
+  background:linear-gradient(100deg,var(--accent) 5%,var(--accent2) 95%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.banner p{font-size:13.5px;color:var(--muted);margin-top:5px;font-weight:500}
+.banner .right{margin-left:auto;display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.chip{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:600;color:var(--text);
+  background:var(--glass-strong);border:1px solid var(--border-soft);border-radius:999px;padding:6px 12px}
+.chip i{color:var(--accent)}
+.seg{display:flex;background:var(--glass-strong);border:1px solid var(--border-soft);border-radius:999px;padding:3px}
+.seg button{border:0;background:transparent;cursor:pointer;font:inherit;font-size:12px;font-weight:600;color:var(--muted);
+  padding:6px 14px;border-radius:999px;transition:all .35s var(--ease);display:flex;align-items:center;gap:6px}
+.seg button.on{color:#fff;background:linear-gradient(120deg,var(--accent),var(--accent-soft));box-shadow:0 6px 14px -6px var(--accent)}
+
+/* slicer */
+.slicer{padding:16px 20px;margin-bottom:22px}
+.slicer .head{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.slicer .head .t{font-family:'Sora',sans-serif;font-weight:700;font-size:14px;color:var(--text-strong);display:flex;align-items:center;gap:8px}
+.slicer .head .t i{color:var(--accent)}
+.slicer .head .mini{margin-left:auto;display:flex;gap:8px}
+.mini button{border:1px solid var(--border-soft);background:var(--glass-strong);color:var(--muted);cursor:pointer;
+  font:inherit;font-size:11.5px;font-weight:600;padding:5px 11px;border-radius:999px;transition:all .25s var(--ease)}
+.mini button:hover{color:var(--accent);border-color:var(--ring)}
+.pills{display:flex;flex-wrap:wrap;gap:10px;max-height:152px;overflow-y:auto;padding:2px 4px 2px 0}
+.pill{cursor:pointer;font-size:13px;font-weight:600;color:var(--text);padding:9px 15px;border-radius:999px;
+  background:var(--glass-strong);border:1px solid var(--border);transition:all .3s var(--ease);user-select:none;
+  display:flex;align-items:center;gap:8px}
+.pill .dot{width:8px;height:8px;border-radius:50%;background:var(--muted);transition:all .3s var(--ease)}
+.pill:hover{transform:translateY(-2px);box-shadow:var(--shadow-sm)}
+.pill.on{color:#fff;background:linear-gradient(120deg,var(--accent),var(--accent-soft));border-color:transparent;box-shadow:0 8px 18px -8px var(--accent)}
+.pill.on .dot{background:#fff}
+
+/* kpi grid */
+.focuslabel{font-size:13px;color:var(--muted);font-weight:600;margin:0 4px 12px;display:flex;align-items:center;gap:8px}
+.focuslabel b{color:var(--text-strong);font-weight:700}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px;margin-bottom:22px}
+.kpi{padding:18px 20px;border-radius:var(--r-md);position:relative;overflow:hidden;opacity:0;transform:translateY(14px);
+  animation:rise .6s var(--ease) forwards}
+@keyframes rise{to{opacity:1;transform:none}}
+.kpi.plain{background:var(--card);border:1px solid var(--border);box-shadow:var(--shadow-sm)}
+.kpi.hero{color:#fff;border:1px solid transparent}
+.kpi.hero.teal{background:linear-gradient(140deg,#0f766e,#14b8a6)}
+.kpi.hero.amber{background:linear-gradient(140deg,#b06d12,#e0a73a)}
+.kpi .ic{position:absolute;right:14px;top:14px;font-size:24px;opacity:.9}
+.kpi.plain .ic{color:var(--accent)}
+.kpi .lab{font-size:12.5px;font-weight:600;letter-spacing:.2px;opacity:.92}
+.kpi.plain .lab{color:var(--muted)}
+.kpi .val{font-family:'Sora',sans-serif;font-weight:800;font-size:34px;line-height:1.1;margin-top:6px;letter-spacing:-1px}
+.kpi.plain .val{color:var(--text-strong)}
+.kpi .sub{font-size:12px;margin-top:6px;opacity:.9;font-weight:500}
+.kpi .delta{display:inline-flex;align-items:center;gap:4px;font-size:12px;font-weight:700;margin-top:8px;
+  padding:3px 9px;border-radius:999px;background:rgba(255,255,255,.22)}
+.kpi.plain .delta.up{color:var(--good);background:rgba(21,128,61,.12)}
+.kpi.plain .delta.down{color:var(--bad);background:rgba(185,28,28,.12)}
+
+/* panels */
+.grid2{display:grid;grid-template-columns:1.25fr 1fr;gap:18px}
+@media(max-width:880px){.grid2{grid-template-columns:1fr}}
+.panel{padding:18px 20px}
+.panel .phead{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.panel .phead .t{font-family:'Sora',sans-serif;font-weight:700;font-size:15px;color:var(--text-strong);display:flex;align-items:center;gap:8px}
+.panel .phead .t i{color:var(--accent)}
+.panel .phead .seg{margin-left:auto}
+.legend{display:flex;gap:16px;font-size:12px;color:var(--muted);font-weight:600;margin-bottom:8px}
+.legend span{display:flex;align-items:center;gap:6px}
+.legend .sw{width:11px;height:11px;border-radius:3px}
+.chartscroll{overflow-x:auto;overflow-y:hidden;padding-bottom:4px}
+.chartbox{position:relative;height:300px;min-width:100%}
+
+/* table */
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+thead th{font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:var(--muted);font-weight:700;
+  text-align:right;padding:8px 9px;border-bottom:1px solid var(--border)}
+thead th:first-child{text-align:left}
+tbody td{padding:9px;text-align:right;border-bottom:1px solid var(--border-soft);color:var(--text);font-weight:500}
+tbody td:first-child{text-align:left;font-weight:600;color:var(--text-strong)}
+tbody tr{cursor:pointer;transition:background .25s var(--ease)}
+tbody tr:hover{background:var(--glass)}
+tbody tr.on{background:linear-gradient(90deg,rgba(20,184,166,.16),transparent)}
+tbody tr.on td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
+.tscroll{max-height:370px;overflow:auto}
+.tscroll thead th{position:sticky;top:0;background:var(--card);z-index:1}
+.tag{display:inline-block;font-weight:800;color:var(--accent);font-family:'Sora',sans-serif}
+.empty{padding:40px;text-align:center;color:var(--muted);font-weight:600}
+.foot{margin-top:26px;text-align:center;font-size:12px;color:var(--muted)}
+.foot b{color:var(--text)}
+</style>
+</head>
+<body>
+<div class="orbs"><div class="orb a"></div><div class="orb b"></div><div class="orb c"></div></div>
+
+<div class="wrap">
+  <header class="banner glass">
+    <div class="sigil"><i class="ti ti-train"></i></div>
+    <div>
+      <h1>NCR Availability Info</h1>
+      <p id="sub">North Central Railway · Kavach / TCAS</p>
+    </div>
+    <div class="right">
+      <div class="seg" id="theme">
+        <button data-theme-val="beige" class="on"><i class="ti ti-coffee"></i>Beige</button>
+        <button data-theme-val="white"><i class="ti ti-sun"></i>White</button>
+      </div>
+      <span class="chip"><i class="ti ti-refresh"></i><span id="updated">—</span></span>
+    </div>
+  </header>
+
+  <section class="slicer glass">
+    <div class="head">
+      <span class="t"><i class="ti ti-calendar-stats"></i>Date range</span>
+      <span class="mini"><button id="all">All</button><button id="clear">Clear</button></span>
+    </div>
+    <div class="pills" id="pills"></div>
+  </section>
+
+  <div class="focuslabel"><i class="ti ti-eye"></i>Showing week:&nbsp;<b id="focusWk">—</b></div>
+  <section class="kpis" id="kpis"></section>
+
+  <div class="grid2">
+    <section class="panel glass">
+      <div class="phead">
+        <span class="t"><i class="ti ti-chart-bar"></i>Availability vs Unified KPI <span style="font-weight:500;color:var(--muted);font-size:12px;margin-left:2px">· all weeks</span></span>
+        <div class="seg" id="ctype">
+          <button data-ct="bar" class="on"><i class="ti ti-chart-bar"></i>Bars</button>
+          <button data-ct="line"><i class="ti ti-chart-line"></i>Line</button>
+        </div>
+      </div>
+      <div class="legend">
+        <span><span class="sw" style="background:#0f766e"></span>Availability %</span>
+        <span><span class="sw" style="background:#e0a73a"></span>Unified KPI</span>
+      </div>
+      <div class="chartscroll"><div class="chartbox" id="chartbox"><canvas id="chart" role="img" aria-label="Availability versus Unified KPI by week, all weeks in the reports folder"></canvas></div></div>
+    </section>
+
+    <section class="panel glass">
+      <div class="phead"><span class="t"><i class="ti ti-table"></i>Weekly detail</span></div>
+      <div id="tableWrap" class="tscroll"></div>
+    </section>
+  </div>
+
+  <div class="foot">Section <b id="secf">—</b> · one record per week · click a pill or table row to focus.</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+const EMBEDDED = {
+  "section":"36001_LC563 - 36014_VRBD","zone":"NCR","updated":"2026-06-22 11:11",
+  "weeks":[
+    {"period":"08 May - 14 May 2026","start":"2026-05-08","trips":214,"km":12939.83,"availability":95.97,"total_eb":26,"eb_valid":1,"eb_nonvalid":25,"undesirable_eb":17,"mode_degradation":325,"unified_kpi":93.95},
+    {"period":"15 Jun - 21 Jun 2026","start":"2026-06-15","trips":288,"km":16542.81,"availability":93.61,"total_eb":5,"eb_valid":5,"eb_nonvalid":0,"undesirable_eb":4,"mode_degradation":415,"unified_kpi":92.70}
+  ]
+};
+const MO=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const S={data:[],sel:new Set(),focus:null,ct:'bar',chart:null};
+
+function shortLabel(p){
+  const m=String(p||"").match(/(\d{1,2})\s+(\w{3})\s*-\s*(\d{1,2})\s+(\w{3})/);
+  if(!m) return String(p||"");
+  return m[2]===m[4] ? `${+m[1]}–${+m[3]} ${m[2]}` : `${+m[1]} ${m[2]}–${+m[3]} ${m[4]}`;
+}
+const int=v=>v==null?"–":Math.round(v).toLocaleString();
+const pct=v=>v==null?"–":Number(v).toFixed(2);
+const km =v=>v==null?"–":Number(v).toLocaleString(undefined,{maximumFractionDigits:1});
+
+function countUp(el,to,dec){
+  const dur=850,t0=performance.now(),from=0;
+  const reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
+  if(reduce){el.textContent=to.toFixed(dec);return;}
+  function step(t){const k=Math.min(1,(t-t0)/dur),e=1-Math.pow(1-k,3);
+    el.textContent=(from+(to-from)*e).toFixed(dec);if(k<1)requestAnimationFrame(step);}
+  requestAnimationFrame(step);
+}
+
+function load(){
+  apply(EMBEDDED);
+  fetch('./data.json',{cache:'no-store'}).then(r=>r.ok?r.json():null)
+    .then(d=>{if(d&&d.weeks)apply(d);}).catch(()=>{});
+}
+function apply(d){
+  S.data=(d.weeks||[]).slice().sort((a,b)=>a.start<b.start?-1:1);
+  S.sel=new Set(S.data.map(w=>w.period));
+  S.focus=S.data.length?S.data[S.data.length-1].period:null;
+  document.getElementById('updated').textContent='Updated '+(d.updated||'');
+  document.getElementById('sub').textContent=`North Central Railway · Kavach / TCAS · Section ${d.section||''}`;
+  document.getElementById('secf').textContent=d.section||'';
+  renderPills();renderChart();renderSlice();
+}
+function selectedSorted(){return S.data.filter(w=>S.sel.has(w.period));}
+function ensureFocus(){const s=selectedSorted();if(!s.find(w=>w.period===S.focus))S.focus=s.length?s[s.length-1].period:null;}
+
+function renderPills(){
+  const box=document.getElementById('pills');box.innerHTML='';
+  S.data.forEach(w=>{
+    const el=document.createElement('div');
+    el.className='pill'+(S.sel.has(w.period)?' on':'');
+    el.innerHTML=`<span class="dot"></span>${shortLabel(w.period)}`;
+    el.onclick=()=>{S.sel.has(w.period)?S.sel.delete(w.period):S.sel.add(w.period);ensureFocus();renderPills();renderSlice();};
+    box.appendChild(el);
+  });
+}
+function renderSlice(){ensureFocus();renderKpis();renderTable();}
+
+function renderKpis(){
+  const box=document.getElementById('kpis');box.innerHTML='';
+  const w=S.data.find(x=>x.period===S.focus);
+  document.getElementById('focusWk').textContent=w?w.period:'—';
+  if(!w){box.innerHTML='<div class="empty">No week selected.</div>';return;}
+  const idx=S.data.findIndex(x=>x.period===w.period),prev=idx>0?S.data[idx-1]:null;
+  const dK=prev?+(w.unified_kpi-prev.unified_kpi).toFixed(2):null;
+  const dA=prev?+(w.availability-prev.availability).toFixed(2):null;
+  const cards=[
+    {hero:'teal',ic:'ti-target-arrow',lab:'Unified KPI',val:w.unified_kpi,dec:2,suf:'',delta:dK,sub:prev?'vs previous week':'first week'},
+    {hero:'amber',ic:'ti-gauge',lab:'Availability',val:w.availability,dec:2,suf:'%',delta:dA,sub:prev?'vs previous week':'first week'},
+    {ic:'ti-train',lab:'Trips',val:w.trips,dec:0,suf:'',sub:'in section'},
+    {ic:'ti-route',lab:'Section run',val:w.km,dec:1,suf:' km',sub:'distance covered'},
+    {ic:'ti-hand-stop',lab:'Total EB',val:w.total_eb,dec:0,suf:'',sub:`valid ${int(w.eb_valid)} · non-valid ${int(w.eb_nonvalid)}`},
+    {ic:'ti-alert-octagon',lab:'Undesirable EB',val:w.undesirable_eb,dec:0,suf:'',sub:'flagged brakings'},
+    {ic:'ti-stairs-down',lab:'Mode degradation',val:w.mode_degradation,dec:0,suf:'',sub:'events'},
+  ];
+  cards.forEach((c,i)=>{
+    const d=document.createElement('div');
+    d.className='kpi '+(c.hero?('hero '+c.hero):'plain');
+    d.style.animationDelay=(i*55)+'ms';
+    let delta='';
+    if(c.delta!=null){const up=c.delta>=0;
+      delta=`<span class="delta ${up?'up':'down'}"><i class="ti ti-${up?'arrow-up-right':'arrow-down-right'}"></i>${up?'+':''}${c.delta}${c.suf}</span>`;}
+    d.innerHTML=`<i class="ic ti ${c.ic}"></i><div class="lab">${c.lab}</div>
+      <div class="val"><span class="n">0</span>${c.suf}</div>
+      <div class="sub">${c.sub}</div>${delta}`;
+    box.appendChild(d);
+    const n=d.querySelector('.n');
+    if(c.val==null)n.textContent='–';
+    else countUp(n,Number(c.val),c.dec);
+    if(c.dec===0&&c.val!=null)setTimeout(()=>{n.textContent=int(c.val);},870);
+  });
+}
+
+function gradient(ctx,area,c1,c2){
+  if(!area)return c1;const g=ctx.createLinearGradient(0,area.top,0,area.bottom);
+  g.addColorStop(0,c1);g.addColorStop(1,c2);return g;
+}
+function renderChart(){
+  const weeks=S.data;
+  document.getElementById('chartbox').style.minWidth='max(100%,'+(weeks.length*70)+'px)';
+  const labels=weeks.map(w=>shortLabel(w.period));
+  const av=weeks.map(w=>w.availability),uk=weeks.map(w=>w.unified_kpi);
+  const all=[...av,...uk].filter(v=>v!=null);
+  let lo=all.length?Math.floor((Math.min(...all)-4)/2)*2:0;if(lo<0)lo=0;
+  const ctx=document.getElementById('chart');
+  if(S.chart)S.chart.destroy();
+  const isLine=S.ct==='line';
+  const ds=(label,data,c1,c2)=>isLine?{
+      label,data,borderColor:c1,backgroundColor:c1,tension:.38,borderWidth:3,
+      pointRadius:4,pointHoverRadius:6,pointBackgroundColor:'#fff',pointBorderColor:c1,pointBorderWidth:2,fill:false
+    }:{
+      label,data,borderRadius:8,maxBarThickness:46,
+      backgroundColor:c=>gradient(c.chart.ctx,c.chart.chartArea,c2,c1)
+    };
+  S.chart=new Chart(ctx,{
+    type:isLine?'line':'bar',
+    data:{labels,datasets:[ds('Availability %',av,'#0f766e','#14b8a6'),ds('Unified KPI',uk,'#b06d12','#e0a73a')]},
+    options:{responsive:true,maintainAspectRatio:false,
+      animation:{duration:700,easing:'easeOutCubic'},
+      plugins:{legend:{display:false},tooltip:{
+        backgroundColor:'rgba(30,25,15,.92)',padding:11,cornerRadius:10,titleFont:{family:'Sora'},
+        callbacks:{label:c=>` ${c.dataset.label}: ${Number(c.parsed.y).toFixed(2)}`}}},
+      scales:{
+        y:{min:lo,max:100,grid:{color:'rgba(150,130,95,.16)'},ticks:{color:'#9c8a6d',font:{family:'Inter'}}},
+        x:{grid:{display:false},ticks:{color:'#9c8a6d',font:{family:'Inter',weight:'600'},autoSkip:false,maxRotation:35}}
+      }}
+  });
+}
+
+function renderTable(){
+  const weeks=selectedSorted();const wrap=document.getElementById('tableWrap');
+  if(!weeks.length){wrap.innerHTML='<div class="empty">No weeks selected.</div>';return;}
+  let h='<table><thead><tr><th>Week</th><th>Trips</th><th>KM</th><th>Avail %</th><th>EB</th><th>Undes.</th><th>Mode deg.</th><th>Unified KPI</th></tr></thead><tbody>';
+  weeks.forEach(w=>{
+    h+=`<tr data-p="${w.period}" class="${w.period===S.focus?'on':''}">
+      <td>${shortLabel(w.period)}</td><td>${int(w.trips)}</td><td>${km(w.km)}</td>
+      <td>${pct(w.availability)}</td><td>${int(w.total_eb)}</td><td>${int(w.undesirable_eb)}</td>
+      <td>${int(w.mode_degradation)}</td><td><span class="tag">${pct(w.unified_kpi)}</span></td></tr>`;
+  });
+  wrap.innerHTML=h+'</tbody></table>';
+  wrap.querySelectorAll('tr[data-p]').forEach(tr=>tr.onclick=()=>{S.focus=tr.dataset.p;renderKpis();
+    wrap.querySelectorAll('tr').forEach(x=>x.classList.toggle('on',x.dataset.p===S.focus));});
+}
+
+document.getElementById('all').onclick=()=>{S.sel=new Set(S.data.map(w=>w.period));ensureFocus();renderPills();renderSlice();};
+document.getElementById('clear').onclick=()=>{S.sel=new Set();ensureFocus();renderPills();renderSlice();};
+document.getElementById('theme').onclick=e=>{const b=e.target.closest('button');if(!b)return;
+  document.documentElement.setAttribute('data-theme',b.dataset.themeVal);
+  [...e.currentTarget.children].forEach(x=>x.classList.toggle('on',x===b));};
+document.getElementById('ctype').onclick=e=>{const b=e.target.closest('button');if(!b)return;
+  S.ct=b.dataset.ct;[...e.currentTarget.children].forEach(x=>x.classList.toggle('on',x===b));renderChart();};
+
+load();
+</script>
+</body>
+</html>
