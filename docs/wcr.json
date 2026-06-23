@@ -1,0 +1,33 @@
+{
+  "section": "33001_IBH-265 to 33132_IBH_1",
+  "zone": "WCR",
+  "updated": "2026-06-22 17:21",
+  "weeks": [
+    {
+      "period": "Jun1 - Jun7",
+      "start": "2026-06-01",
+      "trips": 40,
+      "km": 66610.96,
+      "availability": 98.46,
+      "total_eb": 34,
+      "eb_valid": 5,
+      "eb_nonvalid": 29,
+      "undesirable_eb": 26,
+      "mode_degradation": 560,
+      "unified_kpi": 95.16
+    },
+    {
+      "period": "15 Jun - 21 Jun 2026",
+      "start": "2026-06-15",
+      "trips": 43,
+      "km": 70886.25,
+      "availability": 98.22,
+      "total_eb": 17,
+      "eb_valid": 5,
+      "eb_nonvalid": 12,
+      "undesirable_eb": 11,
+      "mode_degradation": 861,
+      "unified_kpi": 94.91
+    }
+  ]
+}
