@@ -357,7 +357,7 @@ tbody tr.on td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
 #overview .metricblock{margin-bottom:15px}
 .metricblock .mh .cnt{margin-left:auto;font-family:'Inter',sans-serif;font-weight:600;font-size:11px;color:var(--muted);text-transform:none;letter-spacing:0}
 .zcard .zv{font-variant-numeric:tabular-nums}
-</style></head>
+</style><style>#chartsec{margin-bottom:16px}</style></head>
 <body>
 <div class="bg"></div>
 <div class="mesh"><i></i></div>
@@ -484,11 +484,17 @@ tbody tr.on td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
   </section>
 
   <div class="focuslabel reveal"><i class="ti ti-eye"></i>Averaged per week across:&nbsp;<b id="monthLabel">&mdash;</b></div>
+  <section class="panel glass reveal" id="chartsec">
+    <div class="phead"><span class="t"><i class="ti ti-chart-bar"></i>Availability vs Unified KPI<span style="font-weight:500;color:var(--muted);font-size:12px;margin-left:6px">&middot; averaged per zone</span></span></div>
+    <div class="legend"><span><span class="sw" style="background:#0f766e"></span>Availability %</span><span><span class="sw" style="background:#dcb24a"></span>Unified KPI</span></div>
+    <div class="chartbox" id="chartbox"><canvas id="kpichart"></canvas></div>
+  </section>
   <div id="overview"></div>
 
   <div class="morewrap reveal"><a class="morebtn" href="./detail.html">More info &mdash; week-by-week dashboard&nbsp;<i class="ti ti-arrow-right"></i></a></div>
   <div class="foot reveal">One card per zone &middot; each value is the average of that zone's weekly reports in the selected month(s).</div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script>
 const ZONES=[
  {key:'NCR',full:'North Central Railway',url:'./data.json'},
@@ -531,8 +537,28 @@ function renderMonths(){
   el.onclick=()=>{ST.sel.has(mk)?ST.sel.delete(mk):ST.sel.add(mk);renderMonths();render();};
   box.appendChild(el);});
 }
+let kpiChart=null;
+const valueLabels={id:'valueLabels',afterDatasetsDraw(c){const ctx=c.ctx;ctx.save();const cs=getComputedStyle(document.documentElement);ctx.fillStyle=(cs.getPropertyValue('--text-strong')||'#2c2518').trim();ctx.font='700 11px Inter,system-ui,sans-serif';ctx.textAlign='center';ctx.textBaseline='bottom';c.data.datasets.forEach((ds,di)=>{const meta=c.getDatasetMeta(di);if(meta.hidden)return;meta.data.forEach((el,i)=>{const v=ds.data[i];if(v==null)return;ctx.fillText(Number(v).toFixed(2),el.x,el.y-3);});});ctx.restore();}};
+function renderChart(){
+ if(typeof Chart==='undefined')return;
+ const cv=document.getElementById('kpichart'); if(!cv)return;
+ const zs=ST.zones.map(z=>({key:z.key,wk:selWeeks(z)})).filter(z=>avg(z.wk,'availability')!=null);
+ if(kpiChart){kpiChart.destroy();kpiChart=null;}
+ if(!zs.length)return;
+ const labels=zs.map(z=>z.key);
+ const av=zs.map(z=>+avg(z.wk,'availability').toFixed(2));
+ const uk=zs.map(z=>+avg(z.wk,'unified_kpi').toFixed(2));
+ kpiChart=new Chart(cv,{type:'bar',plugins:[valueLabels],
+  data:{labels,datasets:[
+   {label:'Availability %',data:av,backgroundColor:'#0f766e',borderRadius:8,maxBarThickness:54},
+   {label:'Unified KPI',data:uk,backgroundColor:'#dcb24a',borderRadius:8,maxBarThickness:54}]},
+  options:{responsive:true,maintainAspectRatio:false,layout:{padding:{top:24}},
+   plugins:{legend:{display:false},tooltip:{backgroundColor:'rgba(30,25,15,.92)',padding:12,cornerRadius:12,callbacks:{label:c=>' '+c.dataset.label+': '+Number(c.parsed.y).toFixed(2)}}},
+   scales:{y:{min:0,max:100,grid:{color:'rgba(150,130,95,.14)'},ticks:{color:'#9c8a6d',font:{family:'Inter'}}},x:{grid:{display:false},ticks:{color:'#9c8a6d',font:{family:'Inter',weight:'600'}}}}}});
+}
 function render(){
  const metrics=ST.tab==='kpi'?KPI_METRICS:EB_METRICS;
+ const ch=document.getElementById('chartsec'); if(ST.tab==='kpi'){if(ch)ch.hidden=false;}else{if(ch)ch.hidden=true; if(kpiChart){kpiChart.destroy();kpiChart=null;}}
  document.getElementById('monthLabel').textContent=ST.sel.size?[...ST.sel].sort().map(mLabel).join(', '):'no months selected';
  const zs=ST.zones.map(z=>({key:z.key,wk:selWeeks(z)}));
  let h='';
@@ -544,11 +570,12 @@ function render(){
  });
  document.getElementById('overview').innerHTML=h;
  observeReveal();
+ if(ST.tab==='kpi')renderChart();
 }
 document.getElementById('tabs').onclick=e=>{const b=e.target.closest('.tab');if(!b)return;ST.tab=b.dataset.tab;document.querySelectorAll('#tabs .tab').forEach(x=>x.classList.toggle('on',x===b));render();};
 document.getElementById('all').onclick=()=>{ST.sel=new Set(ST.months);renderMonths();render();};
 document.getElementById('clear').onclick=()=>{ST.sel=new Set();renderMonths();render();};
-document.getElementById('theme').onclick=e=>{const b=e.target.closest('button');if(!b)return;document.documentElement.setAttribute('data-theme',b.dataset.themeVal);[...e.currentTarget.children].forEach(x=>x.classList.toggle('on',x===b));};
+document.getElementById('theme').onclick=e=>{const b=e.target.closest('button');if(!b)return;document.documentElement.setAttribute('data-theme',b.dataset.themeVal);[...e.currentTarget.children].forEach(x=>x.classList.toggle('on',x===b));if(ST.tab==='kpi')renderChart();};
 
 /* ambient: scrollbar + spotlight + reveal-on-scroll */
 const sb=document.getElementById('scrollbar');
