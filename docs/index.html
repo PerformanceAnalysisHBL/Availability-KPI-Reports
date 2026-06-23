@@ -540,10 +540,10 @@ const KPI_METRICS=[
  {lab:'Mode degradation',ic:'ti-stairs-down',k:'mode_degradation',f:v=>Math.round(v).toLocaleString()},
 ];
 const EB_METRICS=[
- {lab:'Total EB',ic:'ti-hand-stop',k:'total_eb',hero:'teal',f:v=>v.toFixed(1)},
- {lab:'Valid EB',ic:'ti-circle-check',k:'eb_valid',f:v=>v.toFixed(1)},
- {lab:'Non-valid EB',ic:'ti-circle-x',k:'eb_nonvalid',f:v=>v.toFixed(1)},
- {lab:'Undesirable EB',ic:'ti-alert-octagon',k:'undesirable_eb',f:v=>v.toFixed(1)},
+ {lab:'Total EB',ic:'ti-hand-stop',k:'total_eb',hero:'teal',agg:'sum',f:v=>Math.round(v).toLocaleString()},
+ {lab:'Valid EB',ic:'ti-circle-check',k:'eb_valid',agg:'sum',f:v=>Math.round(v).toLocaleString()},
+ {lab:'Non-valid EB',ic:'ti-circle-x',k:'eb_nonvalid',agg:'sum',f:v=>Math.round(v).toLocaleString()},
+ {lab:'Undesirable EB',ic:'ti-alert-octagon',k:'undesirable_eb',agg:'sum',f:v=>Math.round(v).toLocaleString()},
 ];
 const ST={zones:[],months:[],sel:new Set(),tab:'kpi'};
 const mkOf=w=>String(w.start||'').slice(0,7);
@@ -554,6 +554,7 @@ async function getZone(z){
  return {key:z.key,full:z.full,updated:d?d.updated:null,weeks:(d&&d.weeks)?d.weeks:[]};
 }
 function avg(weeks,k){const v=weeks.map(w=>w[k]).filter(x=>x!=null&&!isNaN(x));return v.length?v.reduce((a,b)=>a+(+b),0)/v.length:null;}
+function sum(weeks,k){const v=weeks.map(w=>w[k]).filter(x=>x!=null&&!isNaN(x));return v.length?v.reduce((a,b)=>a+(+b),0):null;}
 const selWeeks=z=>z.weeks.filter(w=>ST.sel.has(mkOf(w)));
 function renderMonths(){
  const box=document.getElementById('months');box.innerHTML='';
@@ -591,8 +592,8 @@ function render(){
  const zs=ST.zones.map(z=>({key:z.key,wk:selWeeks(z)}));
  let h='';
  metrics.forEach(m=>{
-  h+='<div class="metricblock'+(m.hero?' '+m.hero:'')+' reveal"><div class="mh"><i class="ti '+m.ic+'"></i>'+m.lab+'<span class="cnt">avg / week</span></div><div class="zrow">';
-  zs.forEach(z=>{const v=avg(z.wk,m.k);const n=z.wk.length;
+  h+='<div class="metricblock'+(m.hero?' '+m.hero:'')+' reveal"><div class="mh"><i class="ti '+m.ic+'"></i>'+m.lab+'<span class="cnt">'+(m.agg==='sum'?'total':'avg / week')+'</span></div><div class="zrow">';
+  zs.forEach(z=>{const v=(m.agg==='sum'?sum:avg)(z.wk,m.k);const n=z.wk.length;
    h+='<div class="zcard'+(v==null?' na':'')+'"><div class="zk">'+z.key+'</div><div class="zv">'+(v==null?'n/a':m.f(v))+'</div><div class="zs">'+(v==null?'no data':(n+' wk'+(n>1?'s':'')))+'</div></div>';});
   h+='</div></div>';
  });
