@@ -6,7 +6,7 @@
 <title>Kavach KPI Overview · all zones</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=Roboto+Slab:wght@700;800&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.7.0/dist/tabler-icons.min.css" />
 <style>
 :root{
@@ -357,8 +357,36 @@ tbody tr.on td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
 #overview .metricblock{margin-bottom:15px}
 .metricblock .mh .cnt{margin-left:auto;font-family:'Inter',sans-serif;font-weight:600;font-size:11px;color:var(--muted);text-transform:none;letter-spacing:0}
 .zcard .zv{font-variant-numeric:tabular-nums}
-</style><style>#chartsec{margin-bottom:16px}</style></head>
+</style><style>#chartsec{margin-bottom:16px}</style><style>
+#welcome{position:fixed;inset:0;z-index:9999;display:grid;place-items:center;overflow:hidden;cursor:pointer;
+ background:radial-gradient(120% 90% at 50% 28%,#ffffff 0%,#fbf3f7 46%,#f2e1ea 100%);transition:opacity .7s ease,visibility .7s ease}
+#welcome.gone{opacity:0;visibility:hidden;pointer-events:none}
+#welcome .wm{position:absolute;font-family:'Roboto Slab',Georgia,serif;font-weight:800;color:#A0235E;opacity:.05;
+ font-size:48vw;line-height:1;letter-spacing:-.04em;white-space:nowrap;user-select:none;pointer-events:none}
+#welcome .wcard{position:relative;text-align:center;padding:0 24px;animation:wrise .9s cubic-bezier(.22,.61,.36,1) both}
+@keyframes wrise{from{opacity:0;transform:translateY(18px) scale(.965)}to{opacity:1;transform:none}}
+#welcome .wlogo{height:118px;max-width:80vw;object-fit:contain;filter:drop-shadow(0 12px 26px rgba(160,35,94,.24))}
+#welcome .hblmark{font-family:'Roboto Slab',Rockwell,Georgia,serif;font-weight:800;font-size:clamp(66px,12vw,128px);
+ color:#A0235E;letter-spacing:.05em;line-height:1;filter:drop-shadow(0 12px 26px rgba(160,35,94,.22))}
+#welcome .wtitle{font-family:'Sora',sans-serif;font-weight:700;font-size:clamp(16px,2.3vw,22px);color:#5b3a48;margin-top:24px}
+#welcome .wsub{font-family:'Inter',sans-serif;font-weight:500;font-size:12.5px;color:#a07f8d;margin-top:6px;letter-spacing:.4px;text-transform:uppercase}
+#welcome .worbit{width:40px;height:40px;margin:24px auto 0;position:relative}
+#welcome .worbit span{position:absolute;inset:0;border-radius:50%;border:3px solid transparent;border-top-color:#A0235E;animation:spin 1s linear infinite}
+#welcome .worbit span:nth-child(2){inset:8px;border-top-color:transparent;border-right-color:#dcb24a;animation-duration:1.5s}
+@media(prefers-reduced-motion:reduce){#welcome .wcard,#welcome .worbit span{animation:none!important}}
+</style></head>
 <body>
+<div id="welcome" role="status" aria-label="HBL - opening dashboard">
+  <div class="wm" aria-hidden="true">HBL</div>
+  <div class="wcard">
+    <img class="wlogo" src="./hbl-logo.png" alt="HBL" onerror="this.onerror=null;this.remove();var fb=document.getElementById('wlogofb');if(fb)fb.hidden=false;">
+    <div id="wlogofb" class="hblmark" hidden>HBL</div>
+    <div class="wtitle">Kavach / TCAS Availability</div>
+    <div class="wsub">Zonal KPI Dashboard</div>
+    <div class="worbit" aria-hidden="true"><span></span><span></span></div>
+  </div>
+  <script>(function(){var w=document.getElementById('welcome');if(!w)return;function go(){w.classList.add('gone');setTimeout(function(){w.style.display='none';},750);}var r=window.matchMedia&&matchMedia('(prefers-reduced-motion:reduce)').matches;var t=setTimeout(go,r?500:2000);w.addEventListener('click',function(){clearTimeout(t);go();});})();</script>
+</div>
 <div class="bg"></div>
 <div class="mesh"><i></i></div>
 <div class="train-layer" aria-hidden="true">
