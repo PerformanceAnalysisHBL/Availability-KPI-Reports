@@ -1,0 +1,20 @@
+{
+  "section": "12000_HWH to 12062_CAM",
+  "zone": "ER",
+  "updated": "2026-06-23 10:25",
+  "weeks": [
+    {
+      "period": "15 Jun - 21 Jun 2026",
+      "start": "2026-06-15",
+      "trips": 32,
+      "km": 37247.45,
+      "availability": 96.81,
+      "total_eb": 119,
+      "eb_valid": 7,
+      "eb_nonvalid": 112,
+      "undesirable_eb": 64,
+      "mode_degradation": 1600,
+      "unified_kpi": 75.45
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "section": "36001_LC563 - 36014_VRBD",
+  "zone": "NCR",
+  "updated": "2026-06-22 11:11",
+  "weeks": [
+    {
+      "period": "08 May - 14 May 2026",
+      "start": "2026-05-08",
+      "trips": 214,
+      "km": 12939.83,
+      "availability": 95.97,
+      "total_eb": 26,
+      "eb_valid": 1,
+      "eb_nonvalid": 25,
+      "undesirable_eb": 17,
+      "mode_degradation": 325,
+      "unified_kpi": 93.95
+    },
+    {
+      "period": "15 Jun - 21 Jun 2026",
+      "start": "2026-06-15",
+      "trips": 288,
+      "km": 16542.81,
+      "availability": 93.61,
+      "total_eb": 5,
+      "eb_valid": 5,
+      "eb_nonvalid": 0,
+      "undesirable_eb": 4,
+      "mode_degradation": 415,
+      "unified_kpi": 92.7
+    }
+  ]
+}
