@@ -374,6 +374,16 @@ tbody tr.on td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
 #welcome .worbit span{position:absolute;inset:0;border-radius:50%;border:3px solid transparent;border-top-color:#A0235E;animation:spin 1s linear infinite}
 #welcome .worbit span:nth-child(2){inset:8px;border-top-color:transparent;border-right-color:#dcb24a;animation-duration:1.5s}
 @media(prefers-reduced-motion:reduce){#welcome .wcard,#welcome .worbit span{animation:none!important}}
+</style><style>
+.rail-track{position:absolute;left:0;right:0;bottom:calc(7% + 10px);height:16px;color:var(--accent);opacity:var(--train-op,.26);pointer-events:none}
+.rail-track .rail{position:absolute;left:0;right:0;height:3px;border-radius:2px;background:linear-gradient(90deg,transparent,currentColor 5%,currentColor 95%,transparent)}
+.rail-track .rail.r1{top:2px}.rail-track .rail.r2{top:11px}
+.rail-track .ties{position:absolute;left:0;right:0;top:3px;height:10px;background:repeating-linear-gradient(90deg,rgba(18,16,10,.28) 0 4px,transparent 4px 30px)}
+.station{position:absolute;bottom:calc(7% + 10px);left:14%;width:62px;height:80px;pointer-events:none;opacity:.5}
+.station .board{position:absolute;top:0;left:50%;transform:translateX(-50%);font-family:'Sora',sans-serif;font-weight:800;font-size:14px;letter-spacing:2.5px;color:#3a2a0c;background:#f4c430;border:2px solid #2a1e08;border-radius:4px;padding:3px 11px;white-space:nowrap;box-shadow:0 5px 10px rgba(0,0,0,.2)}
+.station .leg{position:absolute;bottom:0;width:4px;height:56px;background:#6f5f40;border-radius:2px}
+.station .leg.l{left:16px}.station .leg.r{right:16px}
+.calm .rail-track,.calm .station{opacity:.16}
 </style></head>
 <body>
 <div id="welcome" role="status" aria-label="HBL - opening dashboard">
@@ -390,6 +400,8 @@ tbody tr.on td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
 <div class="bg"></div>
 <div class="mesh"><i></i></div>
 <div class="train-layer" aria-hidden="true">
+  <div class="rail-track" aria-hidden="true"><span class="rail r1"></span><span class="ties"></span><span class="rail r2"></span></div>
+  <div class="station" aria-hidden="true"><div class="board">HBL</div><span class="leg l"></span><span class="leg r"></span></div>
   <div class="train">
     <svg viewBox="0 0 1060 140" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g class="streaks">
