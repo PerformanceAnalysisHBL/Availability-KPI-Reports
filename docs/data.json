@@ -1,7 +1,7 @@
 {
   "section": "36001_LC563 - 36014_VRBD",
   "zone": "NCR",
-  "updated": "2026-06-26 14:53",
+  "updated": "2026-06-26 15:36",
   "weeks": [
     {
       "period": "01 Jun - 07 Jun 2026",
@@ -15,7 +15,81 @@
       "undesirable_eb": 6,
       "mode_degradation": 298,
       "unified_kpi": 93.9,
-      "report": "reports/NCR_Kavach_Unified_KPI_Jun1-Jun7.xlsx"
+      "report": "reports/NCR_Kavach_Unified_KPI_Jun1-Jun7.xlsx",
+      "ebd": [
+        [
+          "2 Jun",
+          "30197",
+          "HBL",
+          0,
+          107,
+          "OS",
+          1459.09,
+          "N",
+          "Sholaka",
+          "PG issue (speed fluctuation)"
+        ],
+        [
+          "6 Jun",
+          "37618",
+          "Medha/Kernex",
+          0,
+          39,
+          "SR",
+          1401.6,
+          "R",
+          "Vrindavan Road",
+          "FS->SR degradation + EB"
+        ],
+        [
+          "6 Jun",
+          "43821",
+          "HBL",
+          38,
+          98,
+          "TRIP",
+          1447.88,
+          "R",
+          "LC551",
+          "Trip mode"
+        ],
+        [
+          "6 Jun",
+          "43821",
+          "HBL",
+          0,
+          1,
+          "POSTTRIP",
+          1447.26,
+          "R",
+          "LC551",
+          "EB at 0-1 km/h"
+        ],
+        [
+          "6 Jun",
+          "30572",
+          "Medha/Kernex",
+          40,
+          104,
+          "SR",
+          1451.71,
+          "U",
+          "Hodal",
+          "FS->SR degradation + EB"
+        ],
+        [
+          "7 Jun",
+          "37289",
+          "HBL",
+          146,
+          109,
+          "TRIP",
+          1452.02,
+          "N",
+          "Hodal",
+          "Trip mode"
+        ]
+      ]
     },
     {
       "period": "08 Jun - 14 Jun 2026",
@@ -29,7 +103,141 @@
       "undesirable_eb": 6,
       "mode_degradation": 316,
       "unified_kpi": 92.6,
-      "report": "reports/NCR_Kavach_Unified_KPI_Jun8-Jun14.xlsx"
+      "report": "reports/NCR_Kavach_Unified_KPI_Jun8-Jun14.xlsx",
+      "ebd": [
+        [
+          "9 Jun",
+          "37251",
+          "HBL",
+          50,
+          116,
+          "TRIP",
+          1410.04,
+          "N",
+          "LC535",
+          "Trip mode"
+        ],
+        [
+          "9 Jun",
+          "37251",
+          "HBL",
+          2,
+          1,
+          "POSTTRIP",
+          1410.92,
+          "N",
+          "LC535",
+          "EB at 0-1 km/h"
+        ],
+        [
+          "9 Jun",
+          "30197",
+          "HBL",
+          0,
+          75,
+          "OS",
+          1472.88,
+          "R",
+          "Rundhi",
+          "-"
+        ],
+        [
+          "9 Jun",
+          "30197",
+          "HBL",
+          8,
+          40,
+          "OS",
+          1472.71,
+          "R",
+          "Rundhi",
+          "-"
+        ],
+        [
+          "9 Jun",
+          "30197",
+          "HBL",
+          2,
+          5,
+          "OS",
+          1472.62,
+          "R",
+          "Rundhi",
+          "-"
+        ],
+        [
+          "11 Jun",
+          "30197",
+          "HBL",
+          2,
+          41,
+          "OS",
+          1443.99,
+          "N",
+          "LC551",
+          "-"
+        ],
+        [
+          "11 Jun",
+          "30197",
+          "HBL",
+          0,
+          45,
+          "OS",
+          1447.26,
+          "R",
+          "LC551",
+          "PG issue (speed fluctuation)"
+        ],
+        [
+          "12 Jun",
+          "39180",
+          "HBL",
+          20,
+          238,
+          "FS",
+          1406.81,
+          "N",
+          "Vrindavan Road",
+          "PG issue (speed fluctuation)"
+        ],
+        [
+          "12 Jun",
+          "39154",
+          "Medha/Kernex",
+          88,
+          124,
+          "TRIP",
+          1457.24,
+          "R",
+          "LC555",
+          "Trip mode"
+        ],
+        [
+          "12 Jun",
+          "39154",
+          "Medha/Kernex",
+          0,
+          0,
+          "POSTTRIP",
+          1456.25,
+          "R",
+          "LC555",
+          "EB at 0-1 km/h"
+        ],
+        [
+          "14 Jun",
+          "30464",
+          "HBL",
+          0,
+          129,
+          "FS",
+          1450.48,
+          "R",
+          "Hodal",
+          "-"
+        ]
+      ]
     },
     {
       "period": "15 Jun - 21 Jun 2026",
@@ -43,7 +251,69 @@
       "undesirable_eb": 4,
       "mode_degradation": 415,
       "unified_kpi": 92.7,
-      "report": "reports/NCR_Kavach_Unified_KPI_Jun15-Jun21.xlsx"
+      "report": "reports/NCR_Kavach_Unified_KPI_Jun15-Jun21.xlsx",
+      "ebd": [
+        [
+          "15 Jun",
+          "37184",
+          "",
+          2,
+          48,
+          "FS",
+          1437.57,
+          "N",
+          "Kosikalan",
+          "-"
+        ],
+        [
+          "16 Jun",
+          "37197",
+          "",
+          84,
+          115,
+          "TRIP",
+          1457.33,
+          "N",
+          "Sholaka",
+          "Trip mode"
+        ],
+        [
+          "17 Jun",
+          "39340",
+          "",
+          56,
+          127,
+          "SR",
+          1478.89,
+          "R",
+          "LC563",
+          "Emergency: SOS; FS->SR degradation + EB"
+        ],
+        [
+          "18 Jun",
+          "39501",
+          "",
+          150,
+          123,
+          "TRIP",
+          1435.57,
+          "N",
+          "Kosikalan",
+          "Trip mode"
+        ],
+        [
+          "21 Jun",
+          "39163",
+          "",
+          24,
+          64,
+          "SR",
+          1405.63,
+          "U",
+          "Vrindavan Road",
+          "FS->SR degradation + EB"
+        ]
+      ]
     }
   ]
 }
