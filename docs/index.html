@@ -367,6 +367,19 @@ tbody tr.on td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
 .dlmenu{position:absolute;top:calc(100% + 9px);right:0;left:auto;z-index:70;min-width:320px;max-width:min(580px,92vw);max-height:62vh;overflow:auto;padding:10px 15px 13px;border-radius:18px;background:var(--glass-strong);backdrop-filter:blur(20px) saturate(150%);-webkit-backdrop-filter:blur(20px) saturate(150%);border:1px solid var(--border);box-shadow:var(--shadow);opacity:0;visibility:hidden;transform:translateY(-8px) scale(.97);transform-origin:top right;transition:opacity .24s var(--ease),transform .28s var(--spring),visibility .24s}
 .dl.open .dlmenu{opacity:1;visibility:visible;transform:none}
 .dlhint{font-size:10.5px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--muted);padding:2px 2px 9px}
+#ebsec{margin-bottom:16px}
+#ebsec .phead{display:flex;align-items:center;flex-wrap:wrap;gap:8px}
+#ebsec .phead .ec{font-weight:500;color:var(--muted);font-size:12px;margin-left:6px}
+.ebzones{margin-left:auto;display:flex;flex-wrap:wrap;gap:6px}
+.ebpill{font-family:'Sora',sans-serif;font-weight:700;font-size:12px;cursor:pointer;color:var(--text);background:var(--glass-strong);border:1px solid var(--border);border-radius:999px;padding:5px 13px;transition:transform .2s,border-color .2s,color .2s,background .2s}
+.ebpill:hover{border-color:var(--accent);color:var(--accent)}
+.ebpill.on{background:var(--accent);color:#fff;border-color:transparent}
+.ebscroll{overflow:auto;max-height:70vh;border-radius:12px;border:1px solid var(--border)}
+table.ebtbl{width:100%;border-collapse:collapse;font-size:12px}
+table.ebtbl th{position:sticky;top:0;background:var(--accent);color:#fff;font-family:'Sora',sans-serif;font-weight:700;font-size:10.5px;text-transform:uppercase;letter-spacing:.3px;padding:8px 10px;text-align:left;white-space:nowrap;z-index:1}
+table.ebtbl td{padding:6px 10px;border-bottom:1px solid var(--border);color:var(--text);white-space:nowrap;vertical-align:top}
+table.ebtbl td.lft{white-space:normal;min-width:150px}
+table.ebtbl tbody tr:hover{background:var(--glass-strong)}
 .zdl{display:flex;gap:13px;align-items:flex-start;padding:10px 2px;border-top:1px solid var(--border)}
 .zdl:first-child{border-top:0}
 .zdlk{font-family:'Sora',sans-serif;font-weight:800;font-size:13px;min-width:48px;color:var(--accent);padding-top:3px}
@@ -556,6 +569,11 @@ tbody tr.on td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
   </section>
   <div id="overview"></div>
 
+  <section class="panel glass reveal" id="ebsec" hidden>
+    <div class="phead"><span class="t"><i class="ti ti-table"></i>EB Detail <span class="ec" id="ebcount"></span></span><span class="ebzones" id="ebzones"></span></div>
+    <div id="ebtable" class="ebscroll"></div>
+  </section>
+
   <div class="morewrap reveal"><a class="morebtn" href="./detail.html">More info &mdash; week-by-week dashboard&nbsp;<i class="ti ti-arrow-right"></i></a></div>
   <div class="foot reveal">One card per zone &middot; each value is the average of that zone's weekly reports in the selected month(s).</div>
 </div>
@@ -580,7 +598,7 @@ const EB_METRICS=[
  {lab:'Total EB',ic:'ti-hand-stop',k:'total_eb',hero:'teal',agg:'sum',f:v=>Math.round(v).toLocaleString()},
  {lab:'Undesirable EB',ic:'ti-alert-octagon',k:'undesirable_eb',agg:'sum',f:v=>Math.round(v).toLocaleString()},
 ];
-const ST={zones:[],months:[],sel:new Set(),tab:'kpi'};
+const ST={zones:[],months:[],sel:new Set(),tab:'kpi',ebZone:null};
 const mkOf=w=>String(w.start||'').slice(0,7);
 const mLabel=mk=>{const p=mk.split('-');return (MO[+p[1]-1]||'?')+' '+p[0];};
 async function getZone(z){
@@ -633,9 +651,24 @@ function renderReports(){
  });
  box.innerHTML = h || '<div class="dlempty">No downloadable reports yet — reports appear here once each week is published.</div>';
 }
+const EB_COLS=["Date","Loco ID","Loco Type","Duration (s)","Max Speed","Mode @onset","Location (km)","Dir","Station","Suspected Reason"];
+function renderEbTable(){
+ const zb=document.getElementById('ebzones'),tb=document.getElementById('ebtable'),cnt=document.getElementById('ebcount'); if(!zb||!tb)return;
+ const zs=ST.zones.filter(z=>(z.weeks||[]).length);
+ if(!zs.length){zb.innerHTML='';if(cnt)cnt.textContent='';tb.innerHTML='<div class="dlempty">No EB detail in the feeds yet — re-publish each zone.</div>';return;}
+ if(!ST.ebZone||!zs.some(z=>z.key===ST.ebZone))ST.ebZone=zs[0].key;
+ zb.innerHTML=zs.map(z=>'<button class="ebpill'+(z.key===ST.ebZone?' on':'')+'" data-z="'+z.key+'">'+z.key+'</button>').join('');
+ const z=ST.zones.find(x=>x.key===ST.ebZone);const rows=[];(z.weeks||[]).forEach(w=>(w.ebd||[]).forEach(r=>rows.push(r)));
+ if(cnt)cnt.textContent='· '+rows.length+' event'+(rows.length===1?'':'s')+' · all weeks';
+ let h='<table class="ebtbl"><thead><tr>'+EB_COLS.map(c=>'<th>'+c+'</th>').join('')+'</tr></thead><tbody>';
+ if(!rows.length)h+='<tr><td colspan="'+EB_COLS.length+'" style="text-align:center;color:var(--muted);padding:18px">No EB rows for '+ST.ebZone+' yet — re-publish the zone.</td></tr>';
+ rows.forEach(r=>{h+='<tr>'+EB_COLS.map((c,i)=>'<td'+((i===8||i===9)?' class="lft"':'')+'>'+dlEsc(r[i])+'</td>').join('')+'</tr>';});
+ h+='</tbody></table>';tb.innerHTML=h;
+}
 function render(){
  const metrics=ST.tab==='kpi'?KPI_METRICS:EB_METRICS;
  const ch=document.getElementById('chartsec'); if(ST.tab==='kpi'){if(ch)ch.hidden=false;}else{if(ch)ch.hidden=true; if(kpiChart){kpiChart.destroy();kpiChart=null;}}
+ const ebs=document.getElementById('ebsec'); if(ST.tab==='eb'){if(ebs)ebs.hidden=false;renderEbTable();}else{if(ebs)ebs.hidden=true;}
  document.getElementById('monthLabel').textContent=ST.sel.size?[...ST.sel].sort().map(mLabel).join(', '):'no months selected';
  const zs=ST.zones.map(z=>({key:z.key,wk:selWeeks(z)}));
  let h='';
@@ -651,6 +684,7 @@ function render(){
  if(ST.tab==='kpi')renderChart();
 }
 document.getElementById('tabs').onclick=e=>{const b=e.target.closest('.tab');if(!b)return;ST.tab=b.dataset.tab;document.querySelectorAll('#tabs .tab').forEach(x=>x.classList.toggle('on',x===b));render();};
+(function(){var z=document.getElementById('ebzones');if(z)z.onclick=function(e){var b=e.target.closest('.ebpill');if(!b)return;ST.ebZone=b.dataset.z;renderEbTable();};})();
 (function(){var dl=document.getElementById('dl'),btn=document.getElementById('dlbtn');if(!dl||!btn)return;
  btn.addEventListener('click',function(e){e.stopPropagation();var o=dl.classList.toggle('open');btn.setAttribute('aria-expanded',o?'true':'false');});
  document.addEventListener('click',function(e){if(!dl.contains(e.target))dl.classList.remove('open');});
