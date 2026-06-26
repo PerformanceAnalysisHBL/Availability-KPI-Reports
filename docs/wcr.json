@@ -1,10 +1,10 @@
 {
   "section": "33001_IBH-265 to 33132_IBH_1",
   "zone": "WCR",
-  "updated": "2026-06-26 11:28",
+  "updated": "2026-06-26 15:20",
   "weeks": [
     {
-      "period": "Jun1 - Jun7",
+      "period": "Jun1 - Jun7 (custom)",
       "start": "2026-06-01",
       "trips": 40,
       "km": 66610.96,
@@ -18,7 +18,7 @@
       "report": "reports/WCR_Kavach_Unified_KPI_Jun1-Jun7.xlsx"
     },
     {
-      "period": "Jun8 - Jun14",
+      "period": "Jun8 - Jun14 (custom)",
       "start": "2026-06-08",
       "trips": 35,
       "km": 66978.03,
@@ -32,7 +32,7 @@
       "report": "reports/WCR_Kavach_Unified_KPI_Jun8-Jun14.xlsx"
     },
     {
-      "period": "15 Jun - 21 Jun 2026",
+      "period": "Jun15 - Jun21 (custom)",
       "start": "2026-06-15",
       "trips": 43,
       "km": 70886.25,
