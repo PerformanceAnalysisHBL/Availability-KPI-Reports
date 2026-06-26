@@ -1,10 +1,10 @@
 {
   "section": "12000_HWH to 12062_CAM",
   "zone": "ER",
-  "updated": "2026-06-23 10:25",
+  "updated": "2026-06-26 11:28",
   "weeks": [
     {
-      "period": "15 Jun - 21 Jun 2026",
+      "period": "Jun15 - Jun21 (custom)",
       "start": "2026-06-15",
       "trips": 32,
       "km": 37247.45,
@@ -14,7 +14,8 @@
       "eb_nonvalid": 112,
       "undesirable_eb": 64,
       "mode_degradation": 1600,
-      "unified_kpi": 75.45
+      "unified_kpi": 75.45,
+      "report": "reports/ER_Kavach_Unified_KPI_Jun15-Jun21.xlsx"
     }
   ]
 }
