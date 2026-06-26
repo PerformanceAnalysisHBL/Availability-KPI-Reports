@@ -1,10 +1,10 @@
 {
   "section": "24000_ADI - 24223 (WR03, BRC excluded)",
   "zone": "WR",
-  "updated": "2026-06-23 09:08",
+  "updated": "2026-06-26 11:29",
   "weeks": [
     {
-      "period": "1 Jun - 7 Jun 2026",
+      "period": "Jun1 - Jun7 (custom)",
       "start": "2026-06-01",
       "trips": 111,
       "km": 13882.37,
@@ -14,10 +14,11 @@
       "eb_nonvalid": 5,
       "undesirable_eb": 11,
       "mode_degradation": 516,
-      "unified_kpi": 75.66
+      "unified_kpi": 75.66,
+      "report": "reports/WR_Kavach_Unified_KPI_Jun1-Jun7.xlsx"
     },
     {
-      "period": "8 Jun - 14 Jun 2026",
+      "period": "Jun8 - Jun14 (custom)",
       "start": "2026-06-08",
       "trips": 139,
       "km": 15046.03,
@@ -27,10 +28,11 @@
       "eb_nonvalid": 2,
       "undesirable_eb": 9,
       "mode_degradation": 493,
-      "unified_kpi": 87.24
+      "unified_kpi": 87.24,
+      "report": "reports/WR_Kavach_Unified_KPI_Jun8-Jun14.xlsx"
     },
     {
-      "period": "15 Jun - 21 Jun 2026",
+      "period": "Jun15 - Jun21 (custom)",
       "start": "2026-06-15",
       "trips": 162,
       "km": 18569.12,
@@ -40,7 +42,8 @@
       "eb_nonvalid": 7,
       "undesirable_eb": 19,
       "mode_degradation": 631,
-      "unified_kpi": 79.29
+      "unified_kpi": 79.29,
+      "report": "reports/WR_Kavach_Unified_KPI_Jun15-Jun21.xlsx"
     }
   ]
 }
