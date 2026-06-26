@@ -620,7 +620,7 @@ function renderReports(){
   const wks=(z.weeks||[]).filter(w=>w&&w.report).slice().sort((a,b)=>String(b.start||'').localeCompare(String(a.start||'')));
   if(!wks.length) return;
   h+='<div class="zdl"><div class="zdlk">'+dlEsc(z.key)+'</div><div class="zdlw">';
-  wks.forEach(w=>{h+='<a class="dlchip" href="'+dlEsc(w.report)+'" download title="Download '+dlEsc(w.period)+' report"><i class="ti ti-download"></i>'+dlEsc(w.period)+'</a>';});
+  wks.forEach(w=>{var fn=String(w.report).split('/').pop(); h+='<a class="dlchip" href="'+dlEsc(w.report)+'" download title="'+dlEsc(fn)+'"><i class="ti ti-download"></i>'+dlEsc(fn)+'</a>';});
   h+='</div></div>';
  });
  box.innerHTML = h || '<div class="dlempty">No downloadable reports yet — reports appear here once each week is published.</div>';
