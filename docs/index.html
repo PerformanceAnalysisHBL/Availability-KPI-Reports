@@ -385,6 +385,30 @@ table.ebtbl tbody tr:hover{background:var(--glass-strong)}
 .dlchip:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px)}
 .dlchip i{font-size:13px;opacity:.8}
 .dlempty{padding:9px 2px;color:var(--muted);font-weight:600;font-size:12.5px}
+/* weekly | daily download toggle */
+.dlseg{display:flex;gap:6px;padding:2px 2px 11px;margin-bottom:5px;border-bottom:1px solid var(--border-soft)}
+.dlseg button{flex:1 1 0;display:flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--border);background:var(--glass-strong);color:var(--text);cursor:pointer;font:inherit;font-size:12px;font-weight:700;padding:7px 10px;border-radius:10px;transition:transform .2s var(--spring),border-color .2s,color .2s,background .2s}
+.dlseg button:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-1px)}
+.dlseg button.on{background:var(--accent);color:#fff;border-color:transparent}
+.dlseg button i{font-size:14px}
+/* daily downloads nested by month */
+.zdaily{padding:10px 2px 5px;border-top:1px solid var(--border)}
+.zdaily:first-child{border-top:0}
+.zdh{font-family:inherit;font-weight:800;font-size:13px;color:var(--accent);margin-bottom:7px;letter-spacing:.3px}
+.dlmonth{margin:0 0 6px}
+.dlmonth-h{width:100%;display:flex;align-items:center;gap:8px;cursor:pointer;border:1px solid var(--border);background:var(--glass-strong);color:var(--text);font:inherit;font-size:12px;font-weight:700;padding:8px 12px;border-radius:10px;transition:border-color .2s,color .2s}
+.dlmonth-h:hover{border-color:var(--accent);color:var(--accent)}
+.dlmonth-h .mc{font-size:15px;color:var(--muted);transition:transform .25s var(--ease)}
+.dlmonth.open .dlmonth-h{border-color:var(--accent);color:var(--accent)}
+.dlmonth.open .dlmonth-h .mc{transform:rotate(90deg);color:var(--accent)}
+.dlmonth-h .mn{margin-left:auto;font-size:10.5px;font-weight:800;color:var(--muted);background:var(--accent2-soft);border-radius:999px;padding:2px 9px;min-width:24px;text-align:center}
+.dlmonth-b{display:none;flex-wrap:wrap;gap:7px;padding:9px 2px 5px}
+.dlmonth.open .dlmonth-b{display:flex}
+/* EB weekly | daily toggle */
+.ebseg{display:flex;gap:5px;margin-left:8px}
+.ebseg button{border:1px solid var(--border);background:var(--glass-strong);color:var(--text);cursor:pointer;font:inherit;font-size:11.5px;font-weight:700;padding:5px 13px;border-radius:999px;transition:border-color .2s,color .2s,background .2s}
+.ebseg button:hover{border-color:var(--accent);color:var(--accent)}
+.ebseg button.on{background:var(--accent);color:#fff;border-color:transparent}
 </style><style>#chartsec{margin-bottom:16px}</style><style>
 /* splash removed */
 </style><style>
@@ -514,7 +538,7 @@ table.ebtbl tbody tr:hover{background:var(--glass-strong)}
     <div class="dl" id="dl">
       <button class="dlbtn" id="dlbtn" aria-expanded="false" aria-haspopup="true"><i class="ti ti-file-download"></i><span>Download reports</span><i class="ti ti-chevron-down chev"></i></button>
       <div class="dlmenu">
-        <div class="dlhint">Full weekly report &middot; pick a week</div>
+        <div class="dlseg" id="dlseg"><button class="on" data-dl="weekly"><i class="ti ti-calendar-week"></i>Weekly</button><button data-dl="daily"><i class="ti ti-calendar-event"></i>Daily</button></div>
         <div id="reports"></div>
       </div>
     </div>
@@ -537,7 +561,7 @@ table.ebtbl tbody tr:hover{background:var(--glass-strong)}
   <div id="overview"></div>
 
   <section class="panel glass reveal" id="ebsec" hidden>
-    <div class="phead"><span class="t"><i class="ti ti-table"></i>EB Detail <span class="ec" id="ebcount"></span></span><span class="ebzones" id="ebzones"></span></div>
+    <div class="phead"><span class="t"><i class="ti ti-table"></i>EB Detail <span class="ec" id="ebcount"></span></span><div class="ebseg" id="ebseg"><button class="on" data-ebm="weekly">Weekly</button><button data-ebm="daily">Daily</button></div><span class="ebzones" id="ebzones"></span></div>
     <div id="ebtable" class="ebscroll"></div>
   </section>
 
@@ -565,13 +589,13 @@ const EB_METRICS=[
  {lab:'Total EB',ic:'ti-hand-stop',k:'total_eb',hero:'teal',agg:'sum',f:v=>Math.round(v).toLocaleString()},
  {lab:'Undesirable EB',ic:'ti-alert-octagon',k:'undesirable_eb',agg:'sum',f:v=>Math.round(v).toLocaleString()},
 ];
-const ST={zones:[],months:[],sel:new Set(),tab:'kpi',ebZone:null};
+const ST={zones:[],months:[],sel:new Set(),tab:'kpi',ebZone:null,dlMode:'weekly',ebMode:'weekly',dlOpen:{}};
 const mkOf=w=>String(w.start||'').slice(0,7);
 const mLabel=mk=>{const p=mk.split('-');return (MO[+p[1]-1]||'?')+' '+p[0];};
 async function getZone(z){
  let d=EMBEDDED[z.key]||null;
  try{const r=await fetch(z.url,{cache:'no-store'});if(r.ok){const j=await r.json();if(j&&j.weeks)d=j;}}catch(e){}
- return {key:z.key,full:z.full,updated:d?d.updated:null,weeks:(d&&d.weeks)?d.weeks:[]};
+ return {key:z.key,full:z.full,updated:d?d.updated:null,weeks:(d&&d.weeks)?d.weeks:[],days:(d&&d.days)?d.days:[]};
 }
 function avg(weeks,k){const v=weeks.map(w=>w[k]).filter(x=>x!=null&&!isNaN(x));return v.length?v.reduce((a,b)=>a+(+b),0)/v.length:null;}
 function sum(weeks,k){const v=weeks.map(w=>w[k]).filter(x=>x!=null&&!isNaN(x));return v.length?v.reduce((a,b)=>a+(+b),0):null;}
@@ -606,27 +630,52 @@ function renderChart(){
    scales:{y:{min:0,max:100,grid:{color:'rgba(150,130,95,.14)'},ticks:{color:'#9c8a6d',font:{family:'Inter'}}},x:{grid:{display:false},ticks:{color:'#9c8a6d',font:{family:'Inter',weight:'600'}}}}}});
 }
 function dlEsc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-function renderReports(){
- const box=document.getElementById('reports'); if(!box) return;
+function wkLabel(w){const m=String(w.period||'').match(/(\d{1,2})\s+(\w{3})\s*-\s*(\d{1,2})\s+(\w{3})/);if(m)return m[2]===m[4]?((+m[1])+'–'+(+m[3])+' '+m[2]):((+m[1])+' '+m[2]+'–'+(+m[3])+' '+m[4]);return String(w.period||w.start||'report');}
+function dayLabel(w){if(w.start&&/^\d{4}-\d{2}-\d{2}/.test(w.start)){const p=w.start.split('-');return (+p[2])+' '+(MO[+p[1]-1]||'');}return String(w.period||'day');}
+function renderReportsWeekly(box){
  let h='';
  ST.zones.forEach(z=>{
   const wks=(z.weeks||[]).filter(w=>w&&w.report).slice().sort((a,b)=>String(b.start||'').localeCompare(String(a.start||'')));
   if(!wks.length) return;
   h+='<div class="zdl"><div class="zdlk">'+dlEsc(z.key)+'</div><div class="zdlw">';
-  wks.forEach(w=>{var fn=String(w.report).split('/').pop(); h+='<a class="dlchip" href="'+dlEsc(w.report)+'" download title="'+dlEsc(fn)+'"><i class="ti ti-download"></i>'+dlEsc(fn)+'</a>';});
+  wks.forEach(w=>{h+='<a class="dlchip" href="'+dlEsc(w.report)+'" download title="'+dlEsc(String(w.report).split('/').pop())+'"><i class="ti ti-download"></i>'+dlEsc(wkLabel(w))+'</a>';});
   h+='</div></div>';
  });
- box.innerHTML = h || '<div class="dlempty">No downloadable reports yet — reports appear here once each week is published.</div>';
+ box.innerHTML = h || '<div class="dlempty">No weekly reports yet — they appear here once each week is published.</div>';
+}
+function renderReportsDaily(box){
+ let h='';
+ ST.zones.forEach(z=>{
+  const days=(z.days||[]).filter(w=>w&&w.report).slice().sort((a,b)=>String(b.start||'').localeCompare(String(a.start||'')));
+  if(!days.length) return;
+  const byMonth={},order=[];
+  days.forEach(w=>{const mk=String(w.start||'').slice(0,7)||'?';if(!byMonth[mk]){byMonth[mk]=[];order.push(mk);}byMonth[mk].push(w);});
+  h+='<div class="zdaily"><div class="zdh">'+dlEsc(z.key)+'</div>';
+  order.forEach((mk,i)=>{
+   const key=z.key+'|'+mk,open=(key in ST.dlOpen)?ST.dlOpen[key]:(i===0);
+   h+='<div class="dlmonth'+(open?' open':'')+'" data-mk="'+dlEsc(key)+'"><button class="dlmonth-h"><i class="ti ti-chevron-right mc"></i>'+dlEsc(mLabel(mk))+'<span class="mn">'+byMonth[mk].length+'</span></button><div class="dlmonth-b">';
+   byMonth[mk].forEach(w=>{h+='<a class="dlchip" href="'+dlEsc(w.report)+'" download title="'+dlEsc(String(w.report).split('/').pop())+'"><i class="ti ti-download"></i>'+dlEsc(dayLabel(w))+'</a>';});
+   h+='</div></div>';
+  });
+  h+='</div>';
+ });
+ box.innerHTML = h || '<div class="dlempty">No daily reports yet — they appear here once the daily run starts publishing.</div>';
+}
+function renderReports(){
+ const box=document.getElementById('reports'); if(!box) return;
+ if(ST.dlMode==='daily') renderReportsDaily(box); else renderReportsWeekly(box);
 }
 const EB_COLS=["Date","Loco ID","Loco Type","Duration (s)","Max Speed","Mode @onset","Location (km)","Dir","Station","Suspected Reason"];
 function renderEbTable(){
  const zb=document.getElementById('ebzones'),tb=document.getElementById('ebtable'),cnt=document.getElementById('ebcount'); if(!zb||!tb)return;
- const zs=ST.zones.filter(z=>(z.weeks||[]).length);
- if(!zs.length){zb.innerHTML='';if(cnt)cnt.textContent='';tb.innerHTML='<div class="dlempty">No EB detail in the feeds yet — re-publish each zone.</div>';return;}
+ const daily=ST.ebMode==='daily',srcOf=z=>daily?(z.days||[]):(z.weeks||[]);
+ const seg=document.getElementById('ebseg'); if(seg)seg.querySelectorAll('button').forEach(b=>b.classList.toggle('on',b.dataset.ebm===ST.ebMode));
+ const zs=ST.zones.filter(z=>srcOf(z).length);
+ if(!zs.length){zb.innerHTML='';if(cnt)cnt.textContent='';tb.innerHTML='<div class="dlempty">No '+(daily?'daily':'weekly')+' EB detail in the feeds yet — re-publish each zone.</div>';return;}
  if(!ST.ebZone||!zs.some(z=>z.key===ST.ebZone))ST.ebZone=zs[0].key;
  zb.innerHTML=zs.map(z=>'<button class="ebpill'+(z.key===ST.ebZone?' on':'')+'" data-z="'+z.key+'">'+z.key+'</button>').join('');
- const z=ST.zones.find(x=>x.key===ST.ebZone);const rows=[];(z.weeks||[]).forEach(w=>(w.ebd||[]).forEach(r=>rows.push(r)));
- if(cnt)cnt.textContent='· '+rows.length+' event'+(rows.length===1?'':'s')+' · all weeks';
+ const z=ST.zones.find(x=>x.key===ST.ebZone);const rows=[];srcOf(z).forEach(w=>(w.ebd||[]).forEach(r=>rows.push(r)));
+ if(cnt)cnt.textContent='· '+rows.length+' event'+(rows.length===1?'':'s')+' · all '+(daily?'days':'weeks');
  let h='<table class="ebtbl"><thead><tr>'+EB_COLS.map(c=>'<th>'+c+'</th>').join('')+'</tr></thead><tbody>';
  if(!rows.length)h+='<tr><td colspan="'+EB_COLS.length+'" style="text-align:center;color:var(--muted);padding:18px">No EB rows for '+ST.ebZone+' yet — re-publish the zone.</td></tr>';
  rows.forEach(r=>{h+='<tr>'+EB_COLS.map((c,i)=>'<td'+((i===8||i===9)?' class="lft"':'')+'>'+dlEsc(r[i])+'</td>').join('')+'</tr>';});
@@ -652,6 +701,9 @@ function render(){
 }
 document.getElementById('tabs').onclick=e=>{const b=e.target.closest('.tab');if(!b)return;ST.tab=b.dataset.tab;document.querySelectorAll('#tabs .tab').forEach(x=>x.classList.toggle('on',x===b));render();};
 (function(){var z=document.getElementById('ebzones');if(z)z.onclick=function(e){var b=e.target.closest('.ebpill');if(!b)return;ST.ebZone=b.dataset.z;renderEbTable();};})();
+(function(){var seg=document.getElementById('dlseg');if(seg)seg.onclick=function(e){var b=e.target.closest('button');if(!b)return;ST.dlMode=b.dataset.dl;seg.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));renderReports();};})();
+(function(){var box=document.getElementById('reports');if(box)box.addEventListener('click',function(e){var hd=e.target.closest('.dlmonth-h');if(!hd)return;var m=hd.parentNode,key=m.getAttribute('data-mk'),open=!m.classList.contains('open');m.classList.toggle('open',open);ST.dlOpen[key]=open;});})();
+(function(){var seg=document.getElementById('ebseg');if(seg)seg.onclick=function(e){var b=e.target.closest('button');if(!b)return;ST.ebMode=b.dataset.ebm;ST.ebZone=null;renderEbTable();};})();
 (function(){var dl=document.getElementById('dl'),btn=document.getElementById('dlbtn');if(!dl||!btn)return;
  btn.addEventListener('click',function(e){e.stopPropagation();var o=dl.classList.toggle('open');btn.setAttribute('aria-expanded',o?'true':'false');});
  document.addEventListener('click',function(e){if(!dl.contains(e.target))dl.classList.remove('open');});
