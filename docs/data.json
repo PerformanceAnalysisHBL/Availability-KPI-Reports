@@ -1,7 +1,7 @@
 {
   "section": "36001_LC563 - 36014_VRBD",
   "zone": "NCR",
-  "updated": "2026-06-26 15:36",
+  "updated": "2026-06-30 14:53",
   "weeks": [
     {
       "period": "01 Jun - 07 Jun 2026",
@@ -89,7 +89,26 @@
           "Hodal",
           "Trip mode"
         ]
-      ]
+      ],
+      "reason_top": [
+        [
+          "Mode degradation",
+          2
+        ],
+        [
+          "Trip mode",
+          2
+        ],
+        [
+          "PG fluctuation",
+          1
+        ],
+        [
+          "Low speed",
+          1
+        ]
+      ],
+      "summary": "Availability 94.83%, 248 trips, 6 EBs (6 undesirable), 298 mode degradations, Unified KPI 93.9. Top undesirable: Mode degradation (2), Trip mode (2)."
     },
     {
       "period": "08 Jun - 14 Jun 2026",
@@ -237,7 +256,22 @@
           "Hodal",
           "-"
         ]
-      ]
+      ],
+      "reason_top": [
+        [
+          "Trip mode",
+          2
+        ],
+        [
+          "Low speed",
+          2
+        ],
+        [
+          "PG fluctuation",
+          2
+        ]
+      ],
+      "summary": "Availability 93.52%, 271 trips, 11 EBs (6 undesirable), 316 mode degradations, Unified KPI 92.6. Top undesirable: Trip mode (2), Low speed (2)."
     },
     {
       "period": "15 Jun - 21 Jun 2026",
@@ -313,7 +347,109 @@
           "Vrindavan Road",
           "FS->SR degradation + EB"
         ]
-      ]
+      ],
+      "reason_top": [
+        [
+          "Trip mode",
+          2
+        ],
+        [
+          "Emergency",
+          1
+        ],
+        [
+          "Mode degradation",
+          1
+        ]
+      ],
+      "summary": "Availability 93.61%, 288 trips, 5 EBs (4 undesirable), 415 mode degradations, Unified KPI 92.7. Top undesirable: Trip mode (2), Emergency (1)."
+    },
+    {
+      "period": "22 Jun - 28 Jun 2026",
+      "start": "2026-06-22",
+      "trips": 235,
+      "km": 13458.56,
+      "availability": 94.69,
+      "total_eb": 5,
+      "eb_valid": 3,
+      "eb_nonvalid": 2,
+      "undesirable_eb": 4,
+      "mode_degradation": 209,
+      "unified_kpi": 93.92,
+      "report": "reports/NCR_Kavach_Unified_KPI_Jun22-Jun28.xlsx",
+      "ebd": [
+        [
+          "23 Jun",
+          "45034",
+          "HBL",
+          4,
+          124,
+          "OS",
+          1452.05,
+          "N",
+          "Hodal",
+          "-"
+        ],
+        [
+          "24 Jun",
+          "30009",
+          "Medha/Kernex",
+          10,
+          153,
+          "SR",
+          1436.23,
+          "U",
+          "Kosikalan",
+          "PG issue (speed fluctuation); FS->SR degradation + EB"
+        ],
+        [
+          "25 Jun",
+          "30197",
+          "HBL",
+          0,
+          119,
+          "OS",
+          1474.64,
+          "N",
+          "LC563",
+          "PG issue (speed fluctuation)"
+        ],
+        [
+          "28 Jun",
+          "30356",
+          "HBL",
+          0,
+          4,
+          "TRIP",
+          1472.61,
+          "R",
+          "Rundhi",
+          "Trip mode"
+        ],
+        [
+          "28 Jun",
+          "37093",
+          "HBL",
+          0,
+          5,
+          "TRIP",
+          1472.61,
+          "R",
+          "Rundhi",
+          "Trip mode"
+        ]
+      ],
+      "reason_top": [
+        [
+          "PG fluctuation",
+          2
+        ],
+        [
+          "Trip mode",
+          2
+        ]
+      ],
+      "summary": "Availability 94.69%, 235 trips, 5 EBs (4 undesirable), 209 mode degradations, Unified KPI 93.92. Top undesirable: PG fluctuation (2), Trip mode (2)."
     }
   ]
 }
