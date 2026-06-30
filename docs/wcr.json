@@ -1,7 +1,7 @@
 {
   "section": "33001_IBH-265 to 33132_IBH_1",
   "zone": "WCR",
-  "updated": "2026-06-30 09:41",
+  "updated": "2026-06-30 16:01",
   "weeks": [
     {
       "period": "Jun1 - Jun7 (custom)",
@@ -1216,6 +1216,72 @@
           "N",
           "Sewar(SWAR)",
           "Failure mode"
+        ]
+      ]
+    }
+  ],
+  "days": [
+    {
+      "period": "29 Jun 2026",
+      "start": "2026-06-29",
+      "trips": 10,
+      "km": 11984.0,
+      "availability": 98.66,
+      "total_eb": 4,
+      "eb_valid": 0,
+      "eb_nonvalid": 4,
+      "undesirable_eb": 4,
+      "mode_degradation": 138,
+      "unified_kpi": 84.39,
+      "report": "reports/daily/WCR_Kavach_Unified_KPI_Jun29-Jun29.xlsx",
+      "ebd": [
+        [
+          "29 Jun",
+          "37533",
+          "HBL",
+          26,
+          72,
+          "TRIP",
+          1242.74,
+          "R",
+          "IBH 265",
+          "Sudden MA drop; Trip mode"
+        ],
+        [
+          "29 Jun",
+          "37533",
+          "HBL",
+          0,
+          1,
+          "POSTTRIP",
+          1242.74,
+          "R",
+          "IBH 265",
+          "EB at 0-1 km/h"
+        ],
+        [
+          "29 Jun",
+          "37131",
+          "Medha/Kernex",
+          28,
+          83,
+          "Failure",
+          778.48,
+          "N",
+          "IBH-HNU",
+          "Failure mode"
+        ],
+        [
+          "29 Jun",
+          "37533",
+          "HBL",
+          18,
+          57,
+          "TRIP",
+          923.44,
+          "N",
+          "KOTA C",
+          "Trip mode"
         ]
       ]
     }
