@@ -1,7 +1,7 @@
 {
   "section": "33001_IBH-265 to 33132_IBH_1",
   "zone": "WCR",
-  "updated": "2026-06-30 16:01",
+  "updated": "2026-07-01 10:51",
   "weeks": [
     {
       "period": "Jun1 - Jun7 (custom)",
@@ -12,7 +12,7 @@
       "total_eb": 34,
       "eb_valid": 5,
       "eb_nonvalid": 29,
-      "undesirable_eb": 26,
+      "undesirable_eb": 29,
       "mode_degradation": 560,
       "unified_kpi": 95.16,
       "report": "reports/WCR_Kavach_Unified_KPI_Jun1-Jun7.xlsx",
@@ -75,7 +75,7 @@
           1024.42,
           "R",
           "LC-148",
-          "-"
+          "StandBy Mode"
         ],
         [
           "3 Jun",
@@ -87,7 +87,7 @@
           1024.22,
           "R",
           "LC-148",
-          "-"
+          "StandBy Mode"
         ],
         [
           "4 Jun",
@@ -423,7 +423,7 @@
           1212.06,
           "N",
           "Bharatpur Jn.(BTE)",
-          "-"
+          "StandBy Mode"
         ]
       ]
     },
@@ -436,7 +436,7 @@
       "total_eb": 25,
       "eb_valid": 1,
       "eb_nonvalid": 24,
-      "undesirable_eb": 18,
+      "undesirable_eb": 19,
       "mode_degradation": 726,
       "unified_kpi": 92.58,
       "report": "reports/WCR_Kavach_Unified_KPI_Jun8-Jun14.xlsx",
@@ -523,7 +523,7 @@
           867.24,
           "R",
           "IBH KIW-DARA",
-          "-"
+          "StandBy Mode"
         ],
         [
           "9 Jun",
@@ -1191,7 +1191,7 @@
           920.53,
           "R",
           "Kota Jn.(KOTA) CENTRAL",
-          "EB at 0-1 km/h (Standby)"
+          "EB at 0-1 km/h; StandBy Mode"
         ],
         [
           "28 Jun",
@@ -1282,6 +1282,46 @@
           "N",
           "KOTA C",
           "Trip mode"
+        ]
+      ]
+    },
+    {
+      "period": "30 Jun 2026",
+      "start": "2026-06-30",
+      "trips": 4,
+      "km": 9156.96,
+      "availability": 98.4,
+      "total_eb": 2,
+      "eb_valid": 1,
+      "eb_nonvalid": 1,
+      "undesirable_eb": 2,
+      "mode_degradation": 64,
+      "unified_kpi": 76.77,
+      "report": "reports/daily/WCR_Kavach_Unified_KPI_Jun30-Jun30.xlsx",
+      "ebd": [
+        [
+          "30 Jun",
+          "39258",
+          "Medha/Kernex",
+          78,
+          9,
+          "TRIP",
+          1240.72,
+          "R",
+          "IBH 265",
+          "Trip mode"
+        ],
+        [
+          "30 Jun",
+          "37515",
+          "Medha/Kernex",
+          14,
+          2,
+          "TRIP",
+          1091.17,
+          "N",
+          "Gangapur City(GGC)",
+          "Sudden MA drop; Trip mode"
         ]
       ]
     }
