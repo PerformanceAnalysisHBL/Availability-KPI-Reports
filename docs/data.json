@@ -1,7 +1,7 @@
 {
   "section": "36001_LC563 - 36014_VRBD",
   "zone": "NCR",
-  "updated": "2026-06-30 14:53",
+  "updated": "2026-07-01 10:50",
   "weeks": [
     {
       "period": "01 Jun - 07 Jun 2026",
@@ -450,6 +450,85 @@
         ]
       ],
       "summary": "Availability 94.69%, 235 trips, 5 EBs (4 undesirable), 209 mode degradations, Unified KPI 93.92. Top undesirable: PG fluctuation (2), Trip mode (2)."
+    }
+  ],
+  "days": [
+    {
+      "period": "29 Jun 2026",
+      "start": "2026-06-29",
+      "trips": 48,
+      "km": 3434.92,
+      "availability": 93.0,
+      "total_eb": 1,
+      "eb_valid": 1,
+      "eb_nonvalid": 0,
+      "undesirable_eb": 0,
+      "mode_degradation": 66,
+      "unified_kpi": 88.74,
+      "report": "reports/daily/NCR_Kavach_Unified_KPI_Jun29-Jun29.xlsx",
+      "ebd": [
+        [
+          "29 Jun",
+          "30429",
+          "HBL",
+          2,
+          128,
+          "FS",
+          1474.63,
+          "R",
+          "LC563",
+          "-"
+        ]
+      ],
+      "reason_top": [],
+      "summary": "Availability 93.0%, 48 trips, 1 EBs (0 undesirable), 66 mode degradations, Unified KPI 88.74. Top undesirable: none."
+    },
+    {
+      "period": "30 Jun 2026",
+      "start": "2026-06-30",
+      "trips": 42,
+      "km": 2275.39,
+      "availability": 92.0,
+      "total_eb": 2,
+      "eb_valid": 2,
+      "eb_nonvalid": 0,
+      "undesirable_eb": 2,
+      "mode_degradation": 49,
+      "unified_kpi": 85.46,
+      "report": "reports/daily/NCR_Kavach_Unified_KPI_Jun30-Jun30.xlsx",
+      "ebd": [
+        [
+          "30 Jun",
+          "37856",
+          "HBL",
+          8,
+          108,
+          "StandBy",
+          1412.23,
+          "N",
+          "LC535",
+          "StandBy Mode"
+        ],
+        [
+          "30 Jun",
+          "37856",
+          "HBL",
+          14,
+          28,
+          "StandBy",
+          1413.37,
+          "N",
+          "LC535",
+          "StandBy Mode"
+        ]
+      ],
+      "reason_top": [
+        [
+          "Other",
+          2
+        ]
+      ],
+      "summary": "Availability 92.0%, 42 trips, 2 EBs (2 undesirable), 49 mode degradations, Unified KPI 85.46. Top undesirable: Other (2)."
     }
   ]
 }
