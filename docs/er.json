@@ -1,7 +1,7 @@
 {
   "section": "12000_HWH to 12062_CAM",
   "zone": "ER",
-  "updated": "2026-06-30 14:52",
+  "updated": "2026-07-01 10:51",
   "weeks": [
     {
       "period": "Jun1 - Jun7 (custom)",
@@ -1059,7 +1059,7 @@
           14.99,
           "N",
           "Dankuni",
-          "EB at 0-1 km/h (Standby)"
+          "EB at 0-1 km/h; StandBy Mode"
         ],
         [
           "7 Jun",
@@ -1120,7 +1120,7 @@
       "total_eb": 98,
       "eb_valid": 8,
       "eb_nonvalid": 90,
-      "undesirable_eb": 44,
+      "undesirable_eb": 45,
       "mode_degradation": 749,
       "unified_kpi": 74.98,
       "report": "reports/ER_Kavach_Unified_KPI_Jun8-Jun14.xlsx",
@@ -2299,7 +2299,7 @@
           94.81,
           "N",
           "Barddhaman Jn",
-          "-"
+          "StandBy Mode"
         ]
       ]
     },
@@ -2312,7 +2312,7 @@
       "total_eb": 119,
       "eb_valid": 7,
       "eb_nonvalid": 112,
-      "undesirable_eb": 64,
+      "undesirable_eb": 66,
       "mode_degradation": 1600,
       "unified_kpi": 75.45,
       "report": "reports/ER_Kavach_Unified_KPI_Jun15-Jun21.xlsx",
@@ -2351,7 +2351,7 @@
           0.33,
           "U",
           "Howrah",
-          "-"
+          "StandBy Mode"
         ],
         [
           "15 Jun",
@@ -3671,7 +3671,7 @@
           61.41,
           "R",
           "Jaugram",
-          "-"
+          "StandBy Mode"
         ],
         [
           "21 Jun",
@@ -3683,7 +3683,7 @@
           61.35,
           "R",
           "Jaugram",
-          "PG issue (speed fluctuation)"
+          "PG issue (speed fluctuation); StandBy Mode"
         ],
         [
           "21 Jun",
@@ -3756,7 +3756,7 @@
       "total_eb": 114,
       "eb_valid": 6,
       "eb_nonvalid": 108,
-      "undesirable_eb": 50,
+      "undesirable_eb": 54,
       "mode_degradation": 980,
       "unified_kpi": 80.59,
       "report": "reports/ER_Kavach_Unified_KPI_Jun22-Jun28.xlsx",
@@ -3807,7 +3807,7 @@
           39.4,
           "N",
           "Chandanpur",
-          "-"
+          "StandBy Mode"
         ],
         [
           "22 Jun",
@@ -4023,7 +4023,7 @@
           65.99,
           "N",
           "Jaugram",
-          "EB at 0-1 km/h (Standby)"
+          "EB at 0-1 km/h; StandBy Mode"
         ],
         [
           "22 Jun",
@@ -4107,7 +4107,7 @@
           200.17,
           "N",
           "Asansol",
-          "-"
+          "StandBy Mode"
         ],
         [
           "22 Jun",
@@ -4779,7 +4779,7 @@
           0.54,
           "N",
           "Howrah",
-          "-"
+          "StandBy Mode"
         ],
         [
           "26 Jun",
@@ -5055,7 +5055,7 @@
           0.32,
           "U",
           "Howrah",
-          "-"
+          "StandBy Mode"
         ],
         [
           "28 Jun",
@@ -5127,6 +5127,532 @@
           94.19,
           "R",
           "Barddhaman Jn",
+          "EB at 0-1 km/h"
+        ]
+      ]
+    }
+  ],
+  "days": [
+    {
+      "period": "29 Jun 2026",
+      "start": "2026-06-29",
+      "trips": 5,
+      "km": 5496.74,
+      "availability": 98.38,
+      "total_eb": 15,
+      "eb_valid": 2,
+      "eb_nonvalid": 13,
+      "undesirable_eb": 7,
+      "mode_degradation": 105,
+      "unified_kpi": 27.61,
+      "report": "reports/daily/ER_Kavach_Unified_KPI_Jun29-Jun29.xlsx",
+      "ebd": [
+        [
+          "29 Jun",
+          "39133",
+          "HBL",
+          0,
+          2,
+          "FS",
+          0.73,
+          "N",
+          "Howrah",
+          "-"
+        ],
+        [
+          "29 Jun",
+          "39133",
+          "HBL",
+          0,
+          3,
+          "FS",
+          0.73,
+          "N",
+          "Howrah",
+          "-"
+        ],
+        [
+          "29 Jun",
+          "39133",
+          "HBL",
+          2,
+          3,
+          "FS",
+          0.73,
+          "N",
+          "Howrah",
+          "-"
+        ],
+        [
+          "29 Jun",
+          "39133",
+          "HBL",
+          0,
+          6,
+          "StandBy",
+          0.85,
+          "U",
+          "Howrah",
+          "StandBy Mode"
+        ],
+        [
+          "29 Jun",
+          "37610",
+          "HBL",
+          0,
+          3,
+          "OS",
+          0.17,
+          "R",
+          "Howrah",
+          "-"
+        ],
+        [
+          "29 Jun",
+          "37610",
+          "HBL",
+          20,
+          3,
+          "OS",
+          0.16,
+          "R",
+          "Howrah",
+          "-"
+        ],
+        [
+          "29 Jun",
+          "37081",
+          "HBL",
+          0,
+          50,
+          "FS",
+          217.26,
+          "N",
+          "Barakar",
+          "-"
+        ],
+        [
+          "29 Jun",
+          "30503",
+          "HBL",
+          6,
+          29,
+          "StandBy",
+          92.98,
+          "R",
+          "Barddhaman Jn",
+          "StandBy Mode"
+        ],
+        [
+          "29 Jun",
+          "39059",
+          "HBL",
+          20,
+          50,
+          "TRIP",
+          123.03,
+          "N",
+          "Paraj",
+          "Sudden MA drop; Trip mode"
+        ],
+        [
+          "29 Jun",
+          "39059",
+          "HBL",
+          2,
+          1,
+          "POSTTRIP",
+          123.22,
+          "N",
+          "Paraj",
+          "EB at 0-1 km/h"
+        ],
+        [
+          "29 Jun",
+          "37481",
+          "HBL",
+          4,
+          7,
+          "OS",
+          0.46,
+          "N",
+          "Howrah",
+          "-"
+        ],
+        [
+          "29 Jun",
+          "37481",
+          "HBL",
+          2,
+          1,
+          "POSTTRIP",
+          0.47,
+          "N",
+          "Howrah",
+          "EB at 0-1 km/h"
+        ],
+        [
+          "29 Jun",
+          "37260",
+          "HBL",
+          96,
+          120,
+          "Failure",
+          178.78,
+          "R",
+          "Baktarnagar B H",
+          "Failure mode"
+        ],
+        [
+          "29 Jun",
+          "37720",
+          "HBL",
+          6,
+          8,
+          "FS",
+          149.68,
+          "R",
+          "Rajbandh",
+          "-"
+        ],
+        [
+          "29 Jun",
+          "37720",
+          "HBL",
+          2,
+          1,
+          "POSTTRIP",
+          149.67,
+          "R",
+          "Rajbandh",
+          "EB at 0-1 km/h"
+        ]
+      ]
+    },
+    {
+      "period": "30 Jun 2026",
+      "start": "2026-06-30",
+      "trips": 6,
+      "km": 6346.67,
+      "availability": 96.12,
+      "total_eb": 26,
+      "eb_valid": 2,
+      "eb_nonvalid": 24,
+      "undesirable_eb": 14,
+      "mode_degradation": 143,
+      "unified_kpi": 19.04,
+      "report": "reports/daily/ER_Kavach_Unified_KPI_Jun30-Jun30.xlsx",
+      "ebd": [
+        [
+          "30 Jun",
+          "37585",
+          "HBL",
+          6,
+          6,
+          "FS",
+          161.84,
+          "N",
+          "DCOP",
+          "-"
+        ],
+        [
+          "30 Jun",
+          "30200",
+          "HBL",
+          2,
+          77,
+          "FS",
+          119.47,
+          "R",
+          "LC-83",
+          "Sudden MA drop"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          86,
+          248,
+          "FS",
+          111.7,
+          "R",
+          "Khana Link",
+          "PG issue (speed fluctuation)"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          48,
+          56,
+          "OS",
+          114.71,
+          "R",
+          "Khana Link",
+          "Emergency: SOS"
+        ],
+        [
+          "30 Jun",
+          "30200",
+          "HBL",
+          2,
+          3,
+          "FS",
+          0.03,
+          "R",
+          "Howrah",
+          "-"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          8,
+          158,
+          "OS",
+          114.95,
+          "R",
+          "Khana Link",
+          "PG issue (speed fluctuation)"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          6,
+          134,
+          "FS",
+          113.3,
+          "R",
+          "Khana Link",
+          "PG issue (speed fluctuation)"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          14,
+          20,
+          "OS",
+          112.8,
+          "R",
+          "Khana Link",
+          "Emergency: SOS"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          2,
+          3,
+          "OS",
+          111.94,
+          "R",
+          "Khana Link",
+          "-"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          20,
+          74,
+          "FS",
+          110.52,
+          "R",
+          "Khana Link",
+          "-"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          0,
+          26,
+          "OS",
+          110.98,
+          "R",
+          "Khana Link",
+          "-"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          22,
+          13,
+          "TRIP",
+          115.11,
+          "R",
+          "Khana Link",
+          "Trip mode"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          148,
+          100,
+          "OS",
+          114.98,
+          "R",
+          "Khana Link",
+          "-"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          102,
+          110,
+          "FS",
+          111.12,
+          "R",
+          "Khana Link",
+          "-"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          56,
+          66,
+          "OS",
+          114.15,
+          "R",
+          "Khana Link",
+          "-"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          12,
+          119,
+          "OS",
+          112.46,
+          "R",
+          "Khana Link",
+          "PG issue (speed fluctuation)"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          22,
+          55,
+          "OS",
+          113.24,
+          "R",
+          "Khana Link",
+          "Emergency: SOS"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          30,
+          43,
+          "OS",
+          112.64,
+          "R",
+          "Khana Link",
+          "-"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          56,
+          114,
+          "FS",
+          111.42,
+          "R",
+          "Khana Link",
+          "-"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          6,
+          14,
+          "POSTTRIP",
+          110.37,
+          "R",
+          "Khana Link",
+          "-"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          18,
+          18,
+          "FS",
+          111.82,
+          "R",
+          "Khana Link",
+          "Emergency: SOS"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          162,
+          20,
+          "SR",
+          111.43,
+          "U",
+          "Khana Link",
+          "FS->SR degradation + EB"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          50,
+          74,
+          "Shunting",
+          111.17,
+          "U",
+          "Khana Link",
+          "Emergency: SOS; Shunting mode"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          74,
+          111,
+          "Shunting",
+          110.61,
+          "R",
+          "Khana Link",
+          "Emergency: SOS; Shunting mode"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          62,
+          93,
+          "FS",
+          111.32,
+          "R",
+          "Khana Link",
+          "-"
+        ],
+        [
+          "30 Jun",
+          "30084",
+          "HBL",
+          8,
+          10,
+          "POSTTRIP",
+          110.23,
+          "R",
+          "Khana Link",
           "EB at 0-1 km/h"
         ]
       ]
