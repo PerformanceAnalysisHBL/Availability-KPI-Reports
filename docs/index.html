@@ -588,9 +588,9 @@ const MO=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec
 const KPI_METRICS=[
  {lab:'Unified KPI',ic:'ti-target-arrow',k:'unified_kpi',hero:'teal',f:v=>v.toFixed(2)},
  {lab:'Availability',ic:'ti-gauge',k:'availability',hero:'amber',f:v=>v.toFixed(2)+'%'},
- {lab:'Trips',ic:'ti-train',k:'trips',f:v=>Math.round(v).toLocaleString()},
- {lab:'Section run',ic:'ti-route',k:'km',f:v=>Number(v).toLocaleString(undefined,{maximumFractionDigits:1})+' km'},
- {lab:'Mode degradation',ic:'ti-stairs-down',k:'mode_degradation',f:v=>Math.round(v).toLocaleString()},
+ {lab:'Trips',ic:'ti-train',k:'trips',agg:'sum',f:v=>Math.round(v).toLocaleString()},
+ {lab:'Section run',ic:'ti-route',k:'km',agg:'sum',f:v=>Number(v).toLocaleString(undefined,{maximumFractionDigits:1})+' km'},
+ {lab:'Mode degradation',ic:'ti-stairs-down',k:'mode_degradation',agg:'sum',f:v=>Math.round(v).toLocaleString()},
 ];
 const EB_METRICS=[
  {lab:'Total EB',ic:'ti-hand-stop',k:'total_eb',hero:'teal',agg:'sum',f:v=>Math.round(v).toLocaleString()},
