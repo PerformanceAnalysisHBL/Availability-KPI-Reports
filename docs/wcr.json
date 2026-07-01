@@ -1,20 +1,20 @@
 {
   "section": "33001_IBH-265 to 33132_IBH_1",
   "zone": "WCR",
-  "updated": "2026-07-01 10:51",
+  "updated": "2026-07-01 11:48",
   "weeks": [
     {
       "period": "Jun1 - Jun7 (custom)",
       "start": "2026-06-01",
       "trips": 40,
       "km": 66610.96,
-      "availability": 98.46,
+      "availability": 98.66,
       "total_eb": 34,
       "eb_valid": 5,
       "eb_nonvalid": 29,
       "undesirable_eb": 29,
       "mode_degradation": 560,
-      "unified_kpi": 95.16,
+      "unified_kpi": 95.35,
       "report": "reports/WCR_Kavach_Unified_KPI_Jun1-Jun7.xlsx",
       "ebd": [
         [
@@ -432,13 +432,13 @@
       "start": "2026-06-08",
       "trips": 35,
       "km": 66978.03,
-      "availability": 96.57,
+      "availability": 98.23,
       "total_eb": 25,
       "eb_valid": 1,
       "eb_nonvalid": 24,
       "undesirable_eb": 19,
       "mode_degradation": 726,
-      "unified_kpi": 92.58,
+      "unified_kpi": 94.17,
       "report": "reports/WCR_Kavach_Unified_KPI_Jun8-Jun14.xlsx",
       "ebd": [
         [
@@ -748,13 +748,13 @@
       "start": "2026-06-15",
       "trips": 43,
       "km": 70886.25,
-      "availability": 98.22,
+      "availability": 98.6,
       "total_eb": 17,
       "eb_valid": 5,
       "eb_nonvalid": 12,
       "undesirable_eb": 11,
       "mode_degradation": 861,
-      "unified_kpi": 94.91,
+      "unified_kpi": 95.28,
       "report": "reports/WCR_Kavach_Unified_KPI_Jun15-Jun21.xlsx",
       "ebd": [
         [
@@ -968,13 +968,13 @@
       "start": "2026-06-22",
       "trips": 33,
       "km": 58560.05,
-      "availability": 97.92,
+      "availability": 98.68,
       "total_eb": 20,
       "eb_valid": 4,
       "eb_nonvalid": 16,
       "undesirable_eb": 16,
       "mode_degradation": 833,
-      "unified_kpi": 92.73,
+      "unified_kpi": 93.45,
       "report": "reports/WCR_Kavach_Unified_KPI_Jun22-Jun28.xlsx",
       "ebd": [
         [
@@ -1290,13 +1290,13 @@
       "start": "2026-06-30",
       "trips": 4,
       "km": 9156.96,
-      "availability": 98.4,
+      "availability": 98.42,
       "total_eb": 2,
       "eb_valid": 1,
       "eb_nonvalid": 1,
       "undesirable_eb": 2,
       "mode_degradation": 64,
-      "unified_kpi": 76.77,
+      "unified_kpi": 76.79,
       "report": "reports/daily/WCR_Kavach_Unified_KPI_Jun30-Jun30.xlsx",
       "ebd": [
         [
