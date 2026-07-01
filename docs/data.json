@@ -1,20 +1,20 @@
 {
   "section": "36001_LC563 - 36014_VRBD",
   "zone": "NCR",
-  "updated": "2026-07-01 10:50",
+  "updated": "2026-07-01 11:50",
   "weeks": [
     {
       "period": "01 Jun - 07 Jun 2026",
       "start": "2026-06-01",
       "trips": 248,
       "km": 14664.94,
-      "availability": 94.83,
+      "availability": 98.46,
       "total_eb": 6,
       "eb_valid": 5,
       "eb_nonvalid": 1,
       "undesirable_eb": 6,
       "mode_degradation": 298,
-      "unified_kpi": 93.9,
+      "unified_kpi": 97.49,
       "report": "reports/NCR_Kavach_Unified_KPI_Jun1-Jun7.xlsx",
       "ebd": [
         [
@@ -90,38 +90,21 @@
           "Trip mode"
         ]
       ],
-      "reason_top": [
-        [
-          "Mode degradation",
-          2
-        ],
-        [
-          "Trip mode",
-          2
-        ],
-        [
-          "PG fluctuation",
-          1
-        ],
-        [
-          "Low speed",
-          1
-        ]
-      ],
-      "summary": "Availability 94.83%, 248 trips, 6 EBs (6 undesirable), 298 mode degradations, Unified KPI 93.9. Top undesirable: Mode degradation (2), Trip mode (2)."
+      "reason_top": [],
+      "summary": ""
     },
     {
       "period": "08 Jun - 14 Jun 2026",
       "start": "2026-06-08",
       "trips": 271,
       "km": 15978.13,
-      "availability": 93.52,
+      "availability": 96.83,
       "total_eb": 11,
       "eb_valid": 3,
       "eb_nonvalid": 8,
       "undesirable_eb": 6,
       "mode_degradation": 316,
-      "unified_kpi": 92.6,
+      "unified_kpi": 95.88,
       "report": "reports/NCR_Kavach_Unified_KPI_Jun8-Jun14.xlsx",
       "ebd": [
         [
@@ -257,34 +240,21 @@
           "-"
         ]
       ],
-      "reason_top": [
-        [
-          "Trip mode",
-          2
-        ],
-        [
-          "Low speed",
-          2
-        ],
-        [
-          "PG fluctuation",
-          2
-        ]
-      ],
-      "summary": "Availability 93.52%, 271 trips, 11 EBs (6 undesirable), 316 mode degradations, Unified KPI 92.6. Top undesirable: Trip mode (2), Low speed (2)."
+      "reason_top": [],
+      "summary": ""
     },
     {
       "period": "15 Jun - 21 Jun 2026",
       "start": "2026-06-15",
       "trips": 288,
       "km": 16542.81,
-      "availability": 93.61,
+      "availability": 95.91,
       "total_eb": 5,
       "eb_valid": 5,
       "eb_nonvalid": 0,
       "undesirable_eb": 4,
       "mode_degradation": 415,
-      "unified_kpi": 92.7,
+      "unified_kpi": 94.97,
       "report": "reports/NCR_Kavach_Unified_KPI_Jun15-Jun21.xlsx",
       "ebd": [
         [
@@ -348,34 +318,21 @@
           "FS->SR degradation + EB"
         ]
       ],
-      "reason_top": [
-        [
-          "Trip mode",
-          2
-        ],
-        [
-          "Emergency",
-          1
-        ],
-        [
-          "Mode degradation",
-          1
-        ]
-      ],
-      "summary": "Availability 93.61%, 288 trips, 5 EBs (4 undesirable), 415 mode degradations, Unified KPI 92.7. Top undesirable: Trip mode (2), Emergency (1)."
+      "reason_top": [],
+      "summary": ""
     },
     {
       "period": "22 Jun - 28 Jun 2026",
       "start": "2026-06-22",
       "trips": 235,
       "km": 13458.56,
-      "availability": 94.69,
+      "availability": 96.53,
       "total_eb": 5,
       "eb_valid": 3,
       "eb_nonvalid": 2,
       "undesirable_eb": 4,
       "mode_degradation": 209,
-      "unified_kpi": 93.92,
+      "unified_kpi": 95.74,
       "report": "reports/NCR_Kavach_Unified_KPI_Jun22-Jun28.xlsx",
       "ebd": [
         [
@@ -439,17 +396,8 @@
           "Trip mode"
         ]
       ],
-      "reason_top": [
-        [
-          "PG fluctuation",
-          2
-        ],
-        [
-          "Trip mode",
-          2
-        ]
-      ],
-      "summary": "Availability 94.69%, 235 trips, 5 EBs (4 undesirable), 209 mode degradations, Unified KPI 93.92. Top undesirable: PG fluctuation (2), Trip mode (2)."
+      "reason_top": [],
+      "summary": ""
     }
   ],
   "days": [
@@ -458,13 +406,13 @@
       "start": "2026-06-29",
       "trips": 48,
       "km": 3434.92,
-      "availability": 93.0,
+      "availability": 94.96,
       "total_eb": 1,
       "eb_valid": 1,
       "eb_nonvalid": 0,
       "undesirable_eb": 0,
       "mode_degradation": 66,
-      "unified_kpi": 88.74,
+      "unified_kpi": 90.61,
       "report": "reports/daily/NCR_Kavach_Unified_KPI_Jun29-Jun29.xlsx",
       "ebd": [
         [
@@ -481,20 +429,20 @@
         ]
       ],
       "reason_top": [],
-      "summary": "Availability 93.0%, 48 trips, 1 EBs (0 undesirable), 66 mode degradations, Unified KPI 88.74. Top undesirable: none."
+      "summary": ""
     },
     {
       "period": "30 Jun 2026",
       "start": "2026-06-30",
       "trips": 42,
       "km": 2275.39,
-      "availability": 92.0,
+      "availability": 94.36,
       "total_eb": 2,
       "eb_valid": 2,
       "eb_nonvalid": 0,
       "undesirable_eb": 2,
       "mode_degradation": 49,
-      "unified_kpi": 85.46,
+      "unified_kpi": 87.65,
       "report": "reports/daily/NCR_Kavach_Unified_KPI_Jun30-Jun30.xlsx",
       "ebd": [
         [
@@ -522,13 +470,8 @@
           "StandBy Mode"
         ]
       ],
-      "reason_top": [
-        [
-          "Other",
-          2
-        ]
-      ],
-      "summary": "Availability 92.0%, 42 trips, 2 EBs (2 undesirable), 49 mode degradations, Unified KPI 85.46. Top undesirable: Other (2)."
+      "reason_top": [],
+      "summary": ""
     }
   ]
 }
