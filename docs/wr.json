@@ -1,7 +1,7 @@
 {
   "section": "24000_ADI - 24223 (WR03, BRC excluded)",
   "zone": "WR",
-  "updated": "2026-06-30 09:41",
+  "updated": "2026-07-01 10:53",
   "weeks": [
     {
       "period": "Jun1 - Jun7 (custom)",
@@ -123,7 +123,7 @@
           494.65,
           "N",
           "AHMEDABAD Jn",
-          "EB at 0-1 km/h (Standby)"
+          "EB at 0-1 km/h; StandBy Mode"
         ],
         [
           "6 Jun",
@@ -832,6 +832,172 @@
           "R",
           "BAJWA",
           "Failure mode"
+        ]
+      ]
+    }
+  ],
+  "days": [
+    {
+      "period": "29 Jun 2026",
+      "start": "2026-06-29",
+      "trips": 25,
+      "km": 2926.02,
+      "availability": 81.71,
+      "total_eb": 6,
+      "eb_valid": 3,
+      "eb_nonvalid": 3,
+      "undesirable_eb": 6,
+      "mode_degradation": 117,
+      "unified_kpi": 63.01,
+      "report": "reports/daily/WR_Kavach_Unified_KPI_Jun29-Jun29.xlsx",
+      "ebd": [
+        [
+          "29 Jun",
+          "39096",
+          "Medha/Kernex",
+          6,
+          8,
+          "SR",
+          494.75,
+          "U",
+          "AHMEDABAD Jn",
+          "FS->SR degradation + EB"
+        ],
+        [
+          "29 Jun",
+          "39096",
+          "Medha/Kernex",
+          16,
+          25,
+          "SR",
+          430.91,
+          "U",
+          "ANAND Jn",
+          "FS->SR degradation + EB"
+        ],
+        [
+          "29 Jun",
+          "39259",
+          "Medha/Kernex",
+          28,
+          7,
+          "TRIP",
+          457.3,
+          "R",
+          "GOTHAJ",
+          "Trip mode"
+        ],
+        [
+          "29 Jun",
+          "39259",
+          "Medha/Kernex",
+          2,
+          0,
+          "POSTTRIP",
+          457.29,
+          "R",
+          "GOTHAJ",
+          "EB at 0-1 km/h"
+        ],
+        [
+          "29 Jun",
+          "39259",
+          "Medha/Kernex",
+          0,
+          0,
+          "POSTTRIP",
+          457.29,
+          "R",
+          "GOTHAJ",
+          "EB at 0-1 km/h"
+        ],
+        [
+          "29 Jun",
+          "51347",
+          "HBL",
+          0,
+          28,
+          "SR",
+          450.3,
+          "U",
+          "NADIAD",
+          "FS->SR degradation + EB"
+        ]
+      ]
+    },
+    {
+      "period": "30 Jun 2026",
+      "start": "2026-06-30",
+      "trips": 25,
+      "km": 3115.67,
+      "availability": 83.42,
+      "total_eb": 5,
+      "eb_valid": 3,
+      "eb_nonvalid": 2,
+      "undesirable_eb": 4,
+      "mode_degradation": 124,
+      "unified_kpi": 65.64,
+      "report": "reports/daily/WR_Kavach_Unified_KPI_Jun30-Jun30.xlsx",
+      "ebd": [
+        [
+          "30 Jun",
+          "30480",
+          "Medha/Kernex",
+          14,
+          9,
+          "TRIP",
+          406.37,
+          "R",
+          "BAJWA",
+          "Trip mode"
+        ],
+        [
+          "30 Jun",
+          "30480",
+          "Medha/Kernex",
+          2,
+          0,
+          "POSTTRIP",
+          406.36,
+          "R",
+          "BAJWA",
+          "EB at 0-1 km/h"
+        ],
+        [
+          "30 Jun",
+          "37505",
+          "Medha/Kernex",
+          6,
+          8,
+          "SR",
+          497.73,
+          "U",
+          "AHMEDABAD Jn",
+          "FS->SR degradation + EB"
+        ],
+        [
+          "30 Jun",
+          "39248",
+          "Medha/Kernex",
+          8,
+          97,
+          "SR",
+          402.81,
+          "N",
+          "BAJWA",
+          "FS->SR degradation + EB"
+        ],
+        [
+          "30 Jun",
+          "41529",
+          "Medha/Kernex",
+          10,
+          49,
+          "FS",
+          479.15,
+          "R",
+          "BAREJADI NANDEJ",
+          "-"
         ]
       ]
     }
