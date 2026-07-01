@@ -449,6 +449,31 @@ table.ebtbl tbody tr:hover{background:var(--glass-strong)}
   39%, 75% { background: #2aff2a; box-shadow: 0 0 10px #2aff2a; }
   75.1%, 100% { background: #030; box-shadow: none; }
 }
+/* Reverse Track Layer */
+.reverse-layer .rail-track { bottom: calc(24% + 10px); z-index: -2; opacity: calc(var(--train-op,.16) * 0.8); }
+.reverse-layer .station { bottom: calc(24% + 10px); left: auto; right: 14%; z-index: -2; transform: scale(0.85); transform-origin: bottom center; }
+.reverse-layer .signal-pole { bottom: calc(24% + 10px); left: 15vw; z-index: -2; transform: scale(0.85); transform-origin: bottom center; opacity: calc(var(--train-op,.6) * 0.8); }
+.reverse-layer .train { bottom: 24%; left: 0; width: min(66vw, 850px); animation: train-drive-reverse 35s cubic-bezier(0.3, 0, 0.2, 1) infinite !important; animation-delay: -17.5s !important; z-index: -2; opacity: calc(var(--train-op,.26) * 0.9); }
+.reverse-layer .train svg { transform: scaleX(-1); }
+.reverse-layer .train text { transform-box: fill-box; transform-origin: center; transform: scaleX(-1); }
+.reverse-layer .signal-pole .light::before { animation-name: red-signal-rev; animation-delay: -17.5s; }
+.reverse-layer .signal-pole .light::after { animation-name: green-signal-rev; animation-delay: -17.5s; }
+
+@keyframes train-drive-reverse {
+   0% { transform: translateX(150vw); }
+   25%, 40% { transform: translateX(calc(15vw + 20px)); }
+   75%, 100% { transform: translateX(-250vw); }
+}
+@keyframes red-signal-rev {
+  0%, 38.9% { background: #ff2a2a; box-shadow: 0 0 10px #ff2a2a; }
+  39%, 75% { background: #300; box-shadow: none; }
+  75.1%, 100% { background: #ff2a2a; box-shadow: 0 0 10px #ff2a2a; }
+}
+@keyframes green-signal-rev {
+  0%, 38.9% { background: #030; box-shadow: none; }
+  39%, 75% { background: #2aff2a; box-shadow: 0 0 10px #2aff2a; }
+  75.1%, 100% { background: #030; box-shadow: none; }
+}
 </style></head>
 <body>
 <div class="bg"></div>
@@ -919,6 +944,16 @@ function observeReveal(){
  document.getElementById('updated').textContent=up?('Updated '+up):'live';
  renderMonths();render();observeReveal();
 })();
+</script>
+<script>
+  (function(){
+    const tLayer = document.querySelector('.train-layer');
+    if(tLayer) {
+      const revLayer = tLayer.cloneNode(true);
+      revLayer.className = 'reverse-layer';
+      tLayer.parentNode.insertBefore(revLayer, tLayer);
+    }
+  })();
 </script>
 </body>
 </html>
