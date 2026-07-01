@@ -1,20 +1,20 @@
 {
   "section": "12000_HWH to 12062_CAM",
   "zone": "ER",
-  "updated": "2026-07-01 10:51",
+  "updated": "2026-07-01 11:48",
   "weeks": [
     {
       "period": "Jun1 - Jun7 (custom)",
       "start": "2026-06-01",
       "trips": 22,
       "km": 27166.9,
-      "availability": 94.89,
+      "availability": 95.39,
       "total_eb": 91,
       "eb_valid": 4,
       "eb_nonvalid": 87,
       "undesirable_eb": 44,
       "mode_degradation": 1384,
-      "unified_kpi": 61.81,
+      "unified_kpi": 62.14,
       "report": "reports/ER_Kavach_Unified_KPI_Jun1-Jun7.xlsx",
       "ebd": [
         [
@@ -1116,13 +1116,13 @@
       "start": "2026-06-08",
       "trips": 23,
       "km": 31052.67,
-      "availability": 97.08,
+      "availability": 97.41,
       "total_eb": 98,
       "eb_valid": 8,
       "eb_nonvalid": 90,
       "undesirable_eb": 45,
       "mode_degradation": 749,
-      "unified_kpi": 74.98,
+      "unified_kpi": 75.23,
       "report": "reports/ER_Kavach_Unified_KPI_Jun8-Jun14.xlsx",
       "ebd": [
         [
@@ -2308,7 +2308,7 @@
       "start": "2026-06-15",
       "trips": 32,
       "km": 37247.45,
-      "availability": 96.81,
+      "availability": 96.82,
       "total_eb": 119,
       "eb_valid": 7,
       "eb_nonvalid": 112,
@@ -3752,13 +3752,13 @@
       "start": "2026-06-22",
       "trips": 30,
       "km": 38550.88,
-      "availability": 97.68,
+      "availability": 97.92,
       "total_eb": 114,
       "eb_valid": 6,
       "eb_nonvalid": 108,
       "undesirable_eb": 54,
       "mode_degradation": 980,
-      "unified_kpi": 80.59,
+      "unified_kpi": 80.79,
       "report": "reports/ER_Kavach_Unified_KPI_Jun22-Jun28.xlsx",
       "ebd": [
         [
@@ -5334,13 +5334,13 @@
       "start": "2026-06-30",
       "trips": 6,
       "km": 6346.67,
-      "availability": 96.12,
+      "availability": 96.15,
       "total_eb": 26,
       "eb_valid": 2,
       "eb_nonvalid": 24,
       "undesirable_eb": 14,
       "mode_degradation": 143,
-      "unified_kpi": 19.04,
+      "unified_kpi": 19.05,
       "report": "reports/daily/ER_Kavach_Unified_KPI_Jun30-Jun30.xlsx",
       "ebd": [
         [
