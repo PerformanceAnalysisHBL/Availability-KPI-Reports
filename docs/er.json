@@ -1,7 +1,7 @@
 {
   "section": "12000_HWH to 12062_CAM",
   "zone": "ER",
-  "updated": "2026-07-01 12:44",
+  "updated": "2026-07-01 12:59",
   "weeks": [
     {
       "period": "Jun1 - Jun7 (custom)",
@@ -19066,7 +19066,7 @@
           0.8,
           "Howrah",
           "R",
-          ""
+          "Howrah"
         ],
         [
           "29 Jun",
@@ -19080,7 +19080,7 @@
           0.34,
           "Howrah",
           "R",
-          ""
+          "Howrah"
         ],
         [
           "29 Jun",
@@ -19094,7 +19094,7 @@
           0.39,
           "Howrah",
           "N",
-          ""
+          "Howrah"
         ],
         [
           "29 Jun",
@@ -19108,7 +19108,7 @@
           0.84,
           "Howrah",
           "N",
-          ""
+          "Howrah"
         ],
         [
           "29 Jun",
@@ -19122,7 +19122,7 @@
           0.84,
           "Howrah",
           "N",
-          ""
+          "Howrah"
         ],
         [
           "29 Jun",
@@ -19136,7 +19136,7 @@
           0.07,
           "Howrah",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19150,7 +19150,7 @@
           223.89,
           "Mugma",
           "U",
-          ""
+          "Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19164,7 +19164,7 @@
           244.1,
           "Chhota Ambana",
           "N",
-          ""
+          "Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19178,7 +19178,7 @@
           244.06,
           "Chhota Ambana",
           "N",
-          ""
+          "LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19192,7 +19192,7 @@
           244.11,
           "Chhota Ambana",
           "N",
-          ""
+          "LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19206,7 +19206,7 @@
           244.09,
           "Chhota Ambana",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19220,7 +19220,7 @@
           13.26,
           "Dankuni",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19234,7 +19234,7 @@
           49.22,
           "Belmuri",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19248,7 +19248,7 @@
           13.27,
           "Dankuni",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19262,7 +19262,7 @@
           13.26,
           "Dankuni",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19276,7 +19276,7 @@
           23.72,
           "Baruipara",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19290,7 +19290,7 @@
           23.17,
           "Baruipara",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19304,7 +19304,7 @@
           91.13,
           "Barddhaman Jn",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19318,7 +19318,7 @@
           91.08,
           "Barddhaman Jn",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19332,7 +19332,7 @@
           90.24,
           "Gangpur",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19346,7 +19346,7 @@
           17.93,
           "Janai Road",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19360,7 +19360,7 @@
           69.81,
           "LC-57",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19374,7 +19374,7 @@
           69.13,
           "LC-57",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19388,7 +19388,7 @@
           68.13,
           "LC-57",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19402,7 +19402,7 @@
           13.26,
           "Dankuni",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19416,7 +19416,7 @@
           114.8,
           "Galsi",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19430,7 +19430,7 @@
           69.77,
           "LC-57",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19444,7 +19444,7 @@
           68.31,
           "LC-57",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19458,7 +19458,7 @@
           13.27,
           "Dankuni",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19472,7 +19472,7 @@
           13.26,
           "Dankuni",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19486,7 +19486,7 @@
           208.72,
           "Sitarampur Central",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19500,7 +19500,7 @@
           209.01,
           "Sitarampur Central",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19514,7 +19514,7 @@
           220.05,
           "Kumardubi",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19528,7 +19528,7 @@
           244.09,
           "Chhota Ambana",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19542,7 +19542,7 @@
           182.4,
           "Raniganj",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "29 Jun",
@@ -19556,7 +19556,7 @@
           185.84,
           "Nimcha B H",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "29 Jun",
@@ -19570,7 +19570,7 @@
           186.25,
           "Nimcha B H",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "29 Jun",
@@ -19584,7 +19584,7 @@
           182.28,
           "Raniganj",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19598,7 +19598,7 @@
           80.56,
           "Palla Road",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19612,7 +19612,7 @@
           220.16,
           "Kumardubi",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19626,7 +19626,7 @@
           220.21,
           "Kumardubi",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19640,7 +19640,7 @@
           221.45,
           "Mugma",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19654,7 +19654,7 @@
           244.08,
           "Chhota Ambana",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19668,7 +19668,7 @@
           244.14,
           "Chhota Ambana",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19682,7 +19682,7 @@
           211.35,
           "Kulti",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19696,7 +19696,7 @@
           210.78,
           "Kulti",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19710,7 +19710,7 @@
           7.77,
           "Belur",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19724,7 +19724,7 @@
           7.88,
           "Belur",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19738,7 +19738,7 @@
           16.24,
           "Dankuni",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19752,7 +19752,7 @@
           16.86,
           "LC-12",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19766,7 +19766,7 @@
           17.31,
           "LC-12",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19780,7 +19780,7 @@
           59.55,
           "LC-48",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19794,7 +19794,7 @@
           73.68,
           "Palla Road",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19808,7 +19808,7 @@
           75.41,
           "Palla Road",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19822,7 +19822,7 @@
           73.92,
           "Palla Road",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19836,7 +19836,7 @@
           76.82,
           "Palla Road",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19850,7 +19850,7 @@
           79.78,
           "Palla Road",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19864,7 +19864,7 @@
           69.81,
           "LC-57",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "29 Jun",
@@ -19878,7 +19878,7 @@
           75.06,
           "Palla Road",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "29 Jun",
@@ -19892,7 +19892,7 @@
           75.24,
           "Palla Road",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "29 Jun",
@@ -19906,7 +19906,7 @@
           75.74,
           "Palla Road",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "29 Jun",
@@ -19920,7 +19920,7 @@
           81.89,
           "Saktigarh",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "29 Jun",
@@ -19934,7 +19934,7 @@
           73.93,
           "Palla Road",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19948,7 +19948,7 @@
           75.25,
           "Palla Road",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -19962,7 +19962,7 @@
           79.59,
           "Palla Road",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19976,7 +19976,7 @@
           78.81,
           "Palla Road",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -19990,7 +19990,7 @@
           13.27,
           "Dankuni",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20004,7 +20004,7 @@
           73.84,
           "Palla Road",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -20018,7 +20018,7 @@
           79.41,
           "Palla Road",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -20032,7 +20032,7 @@
           97.6,
           "Talit",
           "U",
-          ""
+          "Barddhaman Jn, Talit"
         ],
         [
           "29 Jun",
@@ -20046,7 +20046,7 @@
           244.08,
           "Chhota Ambana",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20060,7 +20060,7 @@
           92.59,
           "Barddhaman Jn",
           "U",
-          ""
+          "Barddhaman Jn, Talit"
         ],
         [
           "29 Jun",
@@ -20074,7 +20074,7 @@
           95.53,
           "Barddhaman Jn",
           "U",
-          ""
+          "Barddhaman Jn, Talit"
         ],
         [
           "29 Jun",
@@ -20088,7 +20088,7 @@
           244.08,
           "Chhota Ambana",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20102,7 +20102,7 @@
           244.13,
           "Chhota Ambana",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20116,7 +20116,7 @@
           244.07,
           "Chhota Ambana",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20130,7 +20130,7 @@
           244.13,
           "Chhota Ambana",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20144,7 +20144,7 @@
           62.16,
           "Jaugram",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20158,7 +20158,7 @@
           200.97,
           "Asansol",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20172,7 +20172,7 @@
           201.47,
           "Asansol",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20186,7 +20186,7 @@
           50.15,
           "Cheragram",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -20200,7 +20200,7 @@
           232.36,
           "Kalubathan",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20214,7 +20214,7 @@
           232.38,
           "Kalubathan",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20228,7 +20228,7 @@
           232.39,
           "Kalubathan",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20242,7 +20242,7 @@
           23.35,
           "Baruipara",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -20256,7 +20256,7 @@
           22.89,
           "Baruipara",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -20270,7 +20270,7 @@
           22.59,
           "Baruipara",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -20284,7 +20284,7 @@
           244.07,
           "Chhota Ambana",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20298,7 +20298,7 @@
           244.11,
           "Chhota Ambana",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20312,7 +20312,7 @@
           221.34,
           "Kumardubi",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20326,7 +20326,7 @@
           232.37,
           "Kalubathan",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20340,7 +20340,7 @@
           232.4,
           "Kalubathan",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20354,7 +20354,7 @@
           232.9,
           "Kalubathan",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20368,7 +20368,7 @@
           63.1,
           "Jaugram",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "29 Jun",
@@ -20382,7 +20382,7 @@
           244.05,
           "Chhota Ambana",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20396,7 +20396,7 @@
           244.12,
           "Chhota Ambana",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20410,7 +20410,7 @@
           56.25,
           "LC-41",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "29 Jun",
@@ -20424,7 +20424,7 @@
           56.27,
           "LC-41",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "29 Jun",
@@ -20438,7 +20438,7 @@
           56.27,
           "LC-41",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "29 Jun",
@@ -20452,7 +20452,7 @@
           57.2,
           "Gurap",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "29 Jun",
@@ -20466,7 +20466,7 @@
           244.05,
           "Chhota Ambana",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20480,7 +20480,7 @@
           244.09,
           "Chhota Ambana",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "29 Jun",
@@ -20494,7 +20494,7 @@
           55.36,
           "LC-41",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -20508,7 +20508,7 @@
           59.54,
           "LC-48",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "29 Jun",
@@ -20522,7 +20522,7 @@
           12.12,
           "Belanagar",
           "U",
-          ""
+          "Belanagar, Dankuni"
         ]
       ]
     },
@@ -20866,7 +20866,7 @@
           16.01,
           "Dankuni",
           "N",
-          ""
+          "Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "30 Jun",
@@ -20880,7 +20880,7 @@
           179.61,
           "Raniganj",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "30 Jun",
@@ -20894,7 +20894,7 @@
           172.87,
           "Andal",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "30 Jun",
@@ -20908,7 +20908,7 @@
           154.4,
           "LC-111",
           "N",
-          ""
+          "LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -20922,7 +20922,7 @@
           154.47,
           "LC-111",
           "N",
-          ""
+          "LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -20936,7 +20936,7 @@
           157.49,
           "Durgapur",
           "N",
-          ""
+          "LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -20950,7 +20950,7 @@
           210.75,
           "Kulti",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -20964,7 +20964,7 @@
           210.78,
           "Kulti",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -20978,7 +20978,7 @@
           210.76,
           "Kulti",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -20992,7 +20992,7 @@
           158.58,
           "Durgapur",
           "N",
-          ""
+          "Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21006,7 +21006,7 @@
           167.7,
           "Andal East Outer",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21020,7 +21020,7 @@
           167.01,
           "Waria",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21034,7 +21034,7 @@
           200.98,
           "Asansol",
           "N",
-          ""
+          "LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21048,7 +21048,7 @@
           201.46,
           "Asansol",
           "N",
-          ""
+          "LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21062,7 +21062,7 @@
           231.17,
           "Thaparnagar",
           "N",
-          ""
+          "LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21076,7 +21076,7 @@
           231.23,
           "Thaparnagar",
           "N",
-          ""
+          "LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21090,7 +21090,7 @@
           244.08,
           "Chhota Ambana",
           "N",
-          ""
+          "LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21104,7 +21104,7 @@
           244.07,
           "Chhota Ambana",
           "N",
-          ""
+          "Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21118,7 +21118,7 @@
           44.67,
           "LC-38",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21132,7 +21132,7 @@
           199.54,
           "Asansol",
           "U",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "30 Jun",
@@ -21146,7 +21146,7 @@
           166.31,
           "Waria",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "30 Jun",
@@ -21160,7 +21160,7 @@
           245.85,
           "Chhota Ambana",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21174,7 +21174,7 @@
           13.27,
           "Dankuni",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21188,7 +21188,7 @@
           13.26,
           "Dankuni",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21202,7 +21202,7 @@
           245.98,
           "Chhota Ambana",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21216,7 +21216,7 @@
           167.72,
           "Andal East Outer",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "30 Jun",
@@ -21230,7 +21230,7 @@
           167,
           "Waria",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "30 Jun",
@@ -21244,7 +21244,7 @@
           167.85,
           "Andal East Outer",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "30 Jun",
@@ -21258,7 +21258,7 @@
           166.73,
           "Waria",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "30 Jun",
@@ -21272,7 +21272,7 @@
           220.66,
           "Kumardubi",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21286,7 +21286,7 @@
           220.63,
           "Kumardubi",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21300,7 +21300,7 @@
           220.42,
           "Kumardubi",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21314,7 +21314,7 @@
           13.27,
           "Dankuni",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "30 Jun",
@@ -21328,7 +21328,7 @@
           13.26,
           "Dankuni",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "30 Jun",
@@ -21342,7 +21342,7 @@
           158.58,
           "Durgapur",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21356,7 +21356,7 @@
           158.6,
           "Durgapur",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21370,7 +21370,7 @@
           166,
           "Waria",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21384,7 +21384,7 @@
           167.66,
           "Waria",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21398,7 +21398,7 @@
           167.03,
           "Waria",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21412,7 +21412,7 @@
           206.34,
           "Barachak Jn",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21426,7 +21426,7 @@
           199.39,
           "Asansol",
           "U",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "30 Jun",
@@ -21440,7 +21440,7 @@
           244.1,
           "Chhota Ambana",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21454,7 +21454,7 @@
           167.66,
           "Waria",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "30 Jun",
@@ -21468,7 +21468,7 @@
           167.04,
           "Waria",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "30 Jun",
@@ -21482,7 +21482,7 @@
           13.27,
           "Dankuni",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21496,7 +21496,7 @@
           13.26,
           "Dankuni",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21510,7 +21510,7 @@
           158.56,
           "Durgapur",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "30 Jun",
@@ -21524,7 +21524,7 @@
           114.72,
           "Khana Link",
           "U",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -21538,7 +21538,7 @@
           114.72,
           "Khana Link",
           "U",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -21552,7 +21552,7 @@
           114.7,
           "Khana Link",
           "R",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -21566,7 +21566,7 @@
           113.98,
           "Khana Link",
           "U",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -21580,7 +21580,7 @@
           114.72,
           "Khana Link",
           "U",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -21594,7 +21594,7 @@
           113.98,
           "Khana Link",
           "U",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -21608,7 +21608,7 @@
           114.72,
           "Khana Link",
           "U",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -21622,7 +21622,7 @@
           113.96,
           "Khana Link",
           "U",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -21636,7 +21636,7 @@
           115.12,
           "Khana Link",
           "U",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -21650,7 +21650,7 @@
           114.72,
           "Khana Link",
           "U",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -21664,7 +21664,7 @@
           112.97,
           "Khana Link",
           "U",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -21678,7 +21678,7 @@
           7.58,
           "Bally",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "30 Jun",
@@ -21692,7 +21692,7 @@
           167.63,
           "Waria",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21706,7 +21706,7 @@
           167.11,
           "Waria",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21720,7 +21720,7 @@
           174.5,
           "Andal",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central"
         ],
         [
           "30 Jun",
@@ -21734,7 +21734,7 @@
           170.46,
           "Andal",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central"
         ],
         [
           "30 Jun",
@@ -21748,7 +21748,7 @@
           167.71,
           "Andal East Outer",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central"
         ],
         [
           "30 Jun",
@@ -21762,7 +21762,7 @@
           167.03,
           "Waria",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central"
         ],
         [
           "30 Jun",
@@ -21776,7 +21776,7 @@
           146.48,
           "LC-105",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21790,7 +21790,7 @@
           132.85,
           "Mankar",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21804,7 +21804,7 @@
           114.73,
           "Khana Link",
           "R",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -21818,7 +21818,7 @@
           167.7,
           "Andal East Outer",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21832,7 +21832,7 @@
           167.48,
           "Waria",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21846,7 +21846,7 @@
           167.06,
           "Waria",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21860,7 +21860,7 @@
           0.1,
           "Howrah",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "30 Jun",
@@ -21874,7 +21874,7 @@
           0.09,
           "Howrah",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "30 Jun",
@@ -21888,7 +21888,7 @@
           113.49,
           "Khana Link",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21902,7 +21902,7 @@
           146.45,
           "LC-105",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central"
         ],
         [
           "30 Jun",
@@ -21916,7 +21916,7 @@
           158.29,
           "Durgapur",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21930,7 +21930,7 @@
           152.49,
           "Rajbandh",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21944,7 +21944,7 @@
           152.13,
           "Rajbandh",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21958,7 +21958,7 @@
           137.61,
           "LC-96",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central"
         ],
         [
           "30 Jun",
@@ -21972,7 +21972,7 @@
           151.38,
           "Rajbandh",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -21986,7 +21986,7 @@
           146.77,
           "LC-105",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22000,7 +22000,7 @@
           145.75,
           "LC-105",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22014,7 +22014,7 @@
           142.34,
           "Panagarh",
           "U",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22028,7 +22028,7 @@
           115.13,
           "Khana Link",
           "U",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -22042,7 +22042,7 @@
           114.74,
           "Khana Link",
           "R",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -22056,7 +22056,7 @@
           114.67,
           "Khana Link",
           "U",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -22070,7 +22070,7 @@
           115.13,
           "Khana Link",
           "U",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -22084,7 +22084,7 @@
           114.75,
           "Khana Link",
           "R",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -22098,7 +22098,7 @@
           113.86,
           "Khana Link",
           "R",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -22112,7 +22112,7 @@
           110.32,
           "Khana Link",
           "R",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -22126,7 +22126,7 @@
           70.8,
           "Masagram",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "30 Jun",
@@ -22140,7 +22140,7 @@
           13.25,
           "Dankuni",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22154,7 +22154,7 @@
           13.24,
           "Dankuni",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22168,7 +22168,7 @@
           2.3,
           "Howrah Sorting Yard",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "30 Jun",
@@ -22182,7 +22182,7 @@
           30.28,
           "Kamarkundu",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "30 Jun",
@@ -22196,7 +22196,7 @@
           29.64,
           "Kamarkundu",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "30 Jun",
@@ -22210,7 +22210,7 @@
           29.16,
           "Baruipara",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "30 Jun",
@@ -22224,7 +22224,7 @@
           115.94,
           "Galsi",
           "U",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -22238,7 +22238,7 @@
           31.6,
           "Kamarkundu",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22252,7 +22252,7 @@
           31.57,
           "Kamarkundu",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22266,7 +22266,7 @@
           31.32,
           "Kamarkundu",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22280,7 +22280,7 @@
           31,
           "Kamarkundu",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22294,7 +22294,7 @@
           30.96,
           "Kamarkundu",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22308,7 +22308,7 @@
           30.73,
           "Kamarkundu",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22322,7 +22322,7 @@
           30.07,
           "Kamarkundu",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22336,7 +22336,7 @@
           30.69,
           "Kamarkundu",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "30 Jun",
@@ -22350,7 +22350,7 @@
           35.21,
           "Kamarkundu",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "30 Jun",
@@ -22364,7 +22364,7 @@
           35.27,
           "Kamarkundu",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "30 Jun",
@@ -22378,7 +22378,7 @@
           13.26,
           "Dankuni",
           "R",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22392,7 +22392,7 @@
           118.33,
           "Galsi",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22406,7 +22406,7 @@
           129.12,
           "Mankar",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22420,7 +22420,7 @@
           23.51,
           "Baruipara",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22434,7 +22434,7 @@
           23.57,
           "Baruipara",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22448,7 +22448,7 @@
           131.52,
           "Mankar",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22462,7 +22462,7 @@
           30.22,
           "Kamarkundu",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22476,7 +22476,7 @@
           22.86,
           "Janai Road",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol"
         ],
         [
           "30 Jun",
@@ -22490,7 +22490,7 @@
           115.12,
           "Khana Link",
           "U",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -22504,7 +22504,7 @@
           113.89,
           "Khana Link",
           "R",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -22518,7 +22518,7 @@
           197.99,
           "Asansol",
           "U",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22532,7 +22532,7 @@
           210.2,
           "Sitarampur Central",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22546,7 +22546,7 @@
           110.37,
           "Khana Link",
           "R",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -22560,7 +22560,7 @@
           218.56,
           "Barakar",
           "U",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22574,7 +22574,7 @@
           111.43,
           "Khana Link",
           "U",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -22588,7 +22588,7 @@
           223.9,
           "Mugma",
           "U",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22602,7 +22602,7 @@
           244.11,
           "Chhota Ambana",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22616,7 +22616,7 @@
           232.26,
           "Kalubathan",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22630,7 +22630,7 @@
           232.34,
           "Kalubathan",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22644,7 +22644,7 @@
           113.91,
           "Khana Link",
           "R",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -22658,7 +22658,7 @@
           113.86,
           "Khana Link",
           "R",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -22672,7 +22672,7 @@
           244.05,
           "Chhota Ambana",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22686,7 +22686,7 @@
           244.12,
           "Chhota Ambana",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22700,7 +22700,7 @@
           112.3,
           "Khana Link",
           "U",
-          ""
+          "LC-59, Khana Jn, Khana Link, Galsi"
         ],
         [
           "30 Jun",
@@ -22714,7 +22714,7 @@
           65.42,
           "Jaugram",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22728,7 +22728,7 @@
           79.51,
           "Palla Road",
           "R",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "30 Jun",
@@ -22742,7 +22742,7 @@
           200.93,
           "Asansol",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma"
         ],
         [
           "30 Jun",
@@ -22756,7 +22756,7 @@
           201.46,
           "Asansol",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma"
         ],
         [
           "30 Jun",
@@ -22770,7 +22770,7 @@
           244.09,
           "Chhota Ambana",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22784,7 +22784,7 @@
           65.6,
           "Jaugram",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "30 Jun",
@@ -22798,7 +22798,7 @@
           65.61,
           "Jaugram",
           "N",
-          ""
+          "Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn"
         ],
         [
           "30 Jun",
@@ -22812,7 +22812,7 @@
           244.07,
           "Chhota Ambana",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22826,7 +22826,7 @@
           30.9,
           "Kamarkundu",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central"
         ],
         [
           "30 Jun",
@@ -22840,7 +22840,7 @@
           244.05,
           "Chhota Ambana",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ],
         [
           "30 Jun",
@@ -22854,7 +22854,7 @@
           244.08,
           "Chhota Ambana",
           "N",
-          ""
+          "Howrah, Howrah Sorting Yard, Liluah, Belur, Bally, Belanagar, Dankuni, LC-12, Janai Road, Baruipara, Kamarkundu, LC-31, Chandanpur, LC-38, Belmuri, Cheragram, LC-41, Gurap, LC-48, Jaugram, LC-57, Masagram, Palla Road, Saktigarh, Gangpur, Barddhaman Jn, Talit, LC-59, Khana Jn, Khana Link, Galsi, LC-83, Paraj, Mankar, LC-96, Panagarh, LC-105, Rajbandh, LC-111, Durgapur, DCOP, Waria, Andal East Outer, Andal, Baktarnagar B H, Raniganj, Nimcha B H, Ratibati, Kaliphari, Asansol, Barachak Jn, Sitarampur Central, Kulti, Barakar, Kumardubi, Mugma, Thaparnagar, Kalubathan, LC-12, Chhota Ambana"
         ]
       ]
     }
