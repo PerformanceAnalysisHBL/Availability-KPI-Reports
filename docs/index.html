@@ -565,6 +565,11 @@ table.ebtbl tbody tr:hover{background:var(--glass-strong)}
     <div id="ebtable" class="ebscroll"></div>
   </section>
 
+  <section class="panel glass reveal" id="mdsec" hidden>
+    <div class="phead"><span class="t"><i class="ti ti-stairs-down"></i>Mode Degradation <span class="ec" id="mdcount"></span></span><div class="ebseg" id="mdseg"><button class="on" data-mdm="weekly">Weekly</button><button data-mdm="daily">Daily</button></div><span class="ebzones" id="mdzones"></span></div>
+    <div id="mdtable" class="ebscroll"></div>
+  </section>
+
   <div class="morewrap reveal"><a class="morebtn" href="./detail.html">More info &mdash; week-by-week dashboard&nbsp;<i class="ti ti-arrow-right"></i></a></div>
   <div class="foot reveal">One card per zone &middot; each value is the average of that zone's weekly reports in the selected month(s).</div>
 </div>
@@ -577,6 +582,8 @@ const ZONES=[
  {key:'WR', full:'Western Railway',       url:'./wr.json'},
 ];
 const EMBEDDED={"NCR": {"section": "36001_LC563 - 36014_VRBD", "zone": "NCR", "updated": "2026-06-22 11:11", "weeks": [{"period": "08 May - 14 May 2026", "start": "2026-05-08", "trips": 214, "km": 12939.83, "availability": 95.97, "total_eb": 26, "eb_valid": 1, "eb_nonvalid": 25, "undesirable_eb": 17, "mode_degradation": 325, "unified_kpi": 93.95}, {"period": "15 Jun - 21 Jun 2026", "start": "2026-06-15", "trips": 288, "km": 16542.81, "availability": 93.61, "total_eb": 5, "eb_valid": 5, "eb_nonvalid": 0, "undesirable_eb": 4, "mode_degradation": 415, "unified_kpi": 92.7}]}, "WCR": {"section": "33001_IBH-265 to 33132_IBH_1", "zone": "WCR", "updated": "2026-06-22 17:21", "weeks": [{"period": "Jun1 - Jun7", "start": "2026-06-01", "trips": 40, "km": 66610.96, "availability": 98.46, "total_eb": 34, "eb_valid": 5, "eb_nonvalid": 29, "undesirable_eb": 26, "mode_degradation": 560, "unified_kpi": 95.16}, {"period": "15 Jun - 21 Jun 2026", "start": "2026-06-15", "trips": 43, "km": 70886.25, "availability": 98.22, "total_eb": 17, "eb_valid": 5, "eb_nonvalid": 12, "undesirable_eb": 11, "mode_degradation": 861, "unified_kpi": 94.91}]}, "WR": {"section": "24000_ADI - 24223 (WR03, BRC excluded)", "zone": "WR", "updated": "2026-06-23 09:08", "weeks": [{"period": "1 Jun - 7 Jun 2026", "start": "2026-06-01", "trips": 111, "km": 13882.37, "availability": 78.84, "total_eb": 11, "eb_valid": 6, "eb_nonvalid": 5, "undesirable_eb": 11, "mode_degradation": 516, "unified_kpi": 75.66}, {"period": "8 Jun - 14 Jun 2026", "start": "2026-06-08", "trips": 139, "km": 15046.03, "availability": 89.9, "total_eb": 13, "eb_valid": 11, "eb_nonvalid": 2, "undesirable_eb": 9, "mode_degradation": 493, "unified_kpi": 87.24}, {"period": "15 Jun - 21 Jun 2026", "start": "2026-06-15", "trips": 162, "km": 18569.12, "availability": 81.53, "total_eb": 20, "eb_valid": 13, "eb_nonvalid": 7, "undesirable_eb": 19, "mode_degradation": 631, "unified_kpi": 79.29}]}, "ER": {"section": "12000_HWH to 12062_CAM", "zone": "ER", "updated": "2026-06-23 10:25", "weeks": [{"period": "15 Jun - 21 Jun 2026", "start": "2026-06-15", "trips": 32, "km": 37247.45, "availability": 96.81, "total_eb": 119, "eb_valid": 7, "eb_nonvalid": 112, "undesirable_eb": 64, "mode_degradation": 1600, "unified_kpi": 75.45}]}};
+const EB_COLS=["Date","Loco ID","Loco Type","Duration (s)","Max Speed","Mode @onset","Location (km)","Dir","Station","Suspected Reason (undesirable)"];
+const MD_COLS=["Date","Loco ID","From","To (degraded)","Onset","End","Duration (s)","Packets","Location (km)","Station","Dir","Valid Trip?"];
 const MO=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 const KPI_METRICS=[
  {lab:'Unified KPI',ic:'ti-target-arrow',k:'unified_kpi',hero:'teal',f:v=>v.toFixed(2)},
@@ -589,7 +596,7 @@ const EB_METRICS=[
  {lab:'Total EB',ic:'ti-hand-stop',k:'total_eb',hero:'teal',agg:'sum',f:v=>Math.round(v).toLocaleString()},
  {lab:'Undesirable EB',ic:'ti-alert-octagon',k:'undesirable_eb',agg:'sum',f:v=>Math.round(v).toLocaleString()},
 ];
-const ST={zones:[],months:[],sel:new Set(),tab:'kpi',ebZone:null,dlMode:'weekly',ebMode:'weekly',dlOpen:{}};
+const ST={zones:[],months:[],sel:new Set(),tab:'kpi',ebZone:null,mdZone:null,dlMode:'weekly',ebMode:'weekly',mdMode:'weekly',dlOpen:{}};
 const mkOf=w=>String(w.start||'').slice(0,7);
 const mLabel=mk=>{const p=mk.split('-');return (MO[+p[1]-1]||'?')+' '+p[0];};
 async function getZone(z){
@@ -665,7 +672,7 @@ function renderReports(){
  const box=document.getElementById('reports'); if(!box) return;
  if(ST.dlMode==='daily') renderReportsDaily(box); else renderReportsWeekly(box);
 }
-const EB_COLS=["Date","Loco ID","Loco Type","Duration (s)","Max Speed","Mode @onset","Location (km)","Dir","Station","Suspected Reason"];
+
 function renderEbTable(){
  const zb=document.getElementById('ebzones'),tb=document.getElementById('ebtable'),cnt=document.getElementById('ebcount'); if(!zb||!tb)return;
  const daily=ST.ebMode==='daily',srcOf=z=>daily?(z.days||[]):(z.weeks||[]);
@@ -681,10 +688,26 @@ function renderEbTable(){
  rows.forEach(r=>{h+='<tr>'+EB_COLS.map((c,i)=>'<td'+((i===8||i===9)?' class="lft"':'')+'>'+dlEsc(r[i])+'</td>').join('')+'</tr>';});
  h+='</tbody></table>';tb.innerHTML=h;
 }
+function renderMdTable(){
+ const zb=document.getElementById('mdzones'),tb=document.getElementById('mdtable'),cnt=document.getElementById('mdcount'); if(!zb||!tb)return;
+ const daily=ST.mdMode==='daily',srcOf=z=>daily?(z.days||[]):(z.weeks||[]);
+ const seg=document.getElementById('mdseg'); if(seg)seg.querySelectorAll('button').forEach(b=>b.classList.toggle('on',b.dataset.mdm===ST.mdMode));
+ const zs=ST.zones.filter(z=>srcOf(z).length);
+ if(!zs.length){zb.innerHTML='';if(cnt)cnt.textContent='';tb.innerHTML='<div class="dlempty">No '+(daily?'daily':'weekly')+' Mode Degradation detail in the feeds yet.</div>';return;}
+ if(!ST.mdZone||!zs.some(z=>z.key===ST.mdZone))ST.mdZone=zs[0].key;
+ zb.innerHTML=zs.map(z=>'<button class="ebpill'+(z.key===ST.mdZone?' on':'')+'" data-z="'+z.key+'">'+z.key+'</button>').join('');
+ const z=ST.zones.find(x=>x.key===ST.mdZone);const rows=[];srcOf(z).forEach(w=>(w.mdd||[]).forEach(r=>rows.push(r)));
+ if(cnt)cnt.textContent='— '+rows.length+' event'+(rows.length===1?'':'s')+' — all '+(daily?'days':'weeks');
+ let h='<table class="ebtbl"><thead><tr>'+MD_COLS.map(c=>'<th>'+c+'</th>').join('')+'</tr></thead><tbody>';
+ if(!rows.length)h+='<tr><td colspan="'+MD_COLS.length+'" style="text-align:center;color:var(--muted);padding:18px">No Mode Degradation rows for '+ST.mdZone+' yet.</td></tr>';
+ rows.forEach(r=>{h+='<tr>'+MD_COLS.map((c,i)=>'<td'+((i===8||i===9)?' class="lft"':'')+'>'+dlEsc(r[i])+'</td>').join('')+'</tr>';});
+ h+='</tbody></table>';tb.innerHTML=h;
+}
 function render(){
  const metrics=ST.tab==='kpi'?KPI_METRICS:EB_METRICS;
  const ch=document.getElementById('chartsec'); if(ST.tab==='kpi'){if(ch)ch.hidden=false;}else{if(ch)ch.hidden=true; if(kpiChart){kpiChart.destroy();kpiChart=null;}}
- const ebs=document.getElementById('ebsec'); if(ST.tab==='eb'){if(ebs)ebs.hidden=false;renderEbTable();}else{if(ebs)ebs.hidden=true;}
+ const ebs=document.getElementById('ebsec'); const mds=document.getElementById('mdsec');
+ if(ST.tab==='eb'){if(ebs)ebs.hidden=false;if(mds)mds.hidden=false;renderEbTable();renderMdTable();}else{if(ebs)ebs.hidden=true;if(mds)mds.hidden=true;}
  document.getElementById('monthLabel').textContent=ST.sel.size?[...ST.sel].sort().map(mLabel).join(', '):'no months selected';
  const zs=ST.zones.map(z=>({key:z.key,wk:selWeeks(z)}));
  let h='';
@@ -704,6 +727,8 @@ document.getElementById('tabs').onclick=e=>{const b=e.target.closest('.tab');if(
 (function(){var seg=document.getElementById('dlseg');if(seg)seg.onclick=function(e){var b=e.target.closest('button');if(!b)return;ST.dlMode=b.dataset.dl;seg.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));renderReports();};})();
 (function(){var box=document.getElementById('reports');if(box)box.addEventListener('click',function(e){var hd=e.target.closest('.dlmonth-h');if(!hd)return;var m=hd.parentNode,key=m.getAttribute('data-mk'),open=!m.classList.contains('open');m.classList.toggle('open',open);ST.dlOpen[key]=open;});})();
 (function(){var seg=document.getElementById('ebseg');if(seg)seg.onclick=function(e){var b=e.target.closest('button');if(!b)return;ST.ebMode=b.dataset.ebm;ST.ebZone=null;renderEbTable();};})();
+(function(){var z=document.getElementById('mdzones');if(z)z.onclick=function(e){var b=e.target.closest('.ebpill');if(!b)return;ST.mdZone=b.dataset.z;renderMdTable();};})();
+(function(){var seg=document.getElementById('mdseg');if(seg)seg.onclick=function(e){var b=e.target.closest('button');if(!b)return;ST.mdMode=b.dataset.mdm;ST.mdZone=null;renderMdTable();};})();
 (function(){var dl=document.getElementById('dl'),btn=document.getElementById('dlbtn');if(!dl||!btn)return;
  btn.addEventListener('click',function(e){e.stopPropagation();var o=dl.classList.toggle('open');btn.setAttribute('aria-expanded',o?'true':'false');});
  document.addEventListener('click',function(e){if(!dl.contains(e.target))dl.classList.remove('open');});
